@@ -1,0 +1,341 @@
+{
+  "geocoded_waypoints": [
+    {
+      "geocoder_status": "OK",
+      "place_id": "ChIJSfcbwVieX0YRvJg_clop4HM",
+      "types": [
+        "street_address"
+      ]
+    },
+    {
+      "geocoder_status": "OK",
+      "partial_match": true,
+      "place_id": "ChIJ3wMi6vKeX0YRrFmHpKBsHg0",
+      "types": [
+        "establishment",
+        "point_of_interest",
+        "shopping_mall"
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "bounds": {
+        "northeast": {
+          "lat": 59.4024849,
+          "lng": 17.9530374
+        },
+        "southwest": {
+          "lat": 59.3820164,
+          "lng": 17.9235539
+        }
+      },
+      "copyrights": "Map data ©2023 Google",
+      "legs": [
+        {
+          "arrival_time": {
+            "text": "12:17 PM",
+            "time_zone": "Europe/Stockholm",
+            "value": 1677410228
+          },
+          "departure_time": {
+            "text": "12:01 PM",
+            "time_zone": "Europe/Stockholm",
+            "value": 1677409279
+          },
+          "distance": {
+            "text": "4.7 km",
+            "value": 4704
+          },
+          "duration": {
+            "text": "16 mins",
+            "value": 949
+          },
+          "end_address": "Hanstavägen 55 F, 164 53 Kista, Sweden",
+          "end_location": {
+            "lat": 59.4024849,
+            "lng": 17.9467505
+          },
+          "start_address": "Stavbygränd 7, 163 75 Spånga, Sweden",
+          "start_location": {
+            "lat": 59.39237999999999,
+            "lng": 17.9281043
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "0.1 km",
+                "value": 108
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 83
+              },
+              "end_location": {
+                "lat": 59.39182289999999,
+                "lng": 17.9286623
+              },
+              "html_instructions": "Walk to Bytorget",
+              "polyline": {
+                "points": "kaoiJsqllBHu@J_AB[B[z@l@TN"
+              },
+              "start_location": {
+                "lat": 59.39237999999999,
+                "lng": 17.9281043
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "56 m",
+                    "value": 56
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 40
+                  },
+                  "end_location": {
+                    "lat": 59.39222529999999,
+                    "lng": 17.9289697
+                  },
+                  "html_instructions": "Head <b>east</b> on <b>Stavbygränd</b> toward <b>Rinkebystråket</b>",
+                  "polyline": {
+                    "points": "kaoiJsqllBHu@J_AB[B["
+                  },
+                  "start_location": {
+                    "lat": 59.39237999999999,
+                    "lng": 17.9281043
+                  },
+                  "travel_mode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "52 m",
+                    "value": 52
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 43
+                  },
+                  "end_location": {
+                    "lat": 59.39182289999999,
+                    "lng": 17.9286623
+                  },
+                  "html_instructions": "Turn <b>right</b> onto <b>Rinkebystråket</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                  "maneuver": "turn-right",
+                  "polyline": {
+                    "points": "m`oiJawllBz@l@TN"
+                  },
+                  "start_location": {
+                    "lat": 59.39222529999999,
+                    "lng": 17.9289697
+                  },
+                  "travel_mode": "WALKING"
+                }
+              ],
+              "travel_mode": "WALKING"
+            },
+            {
+              "distance": {
+                "text": "4.2 km",
+                "value": 4174
+              },
+              "duration": {
+                "text": "8 mins",
+                "value": 490
+              },
+              "end_location": {
+                "lat": 59.399738,
+                "lng": 17.94713
+              },
+              "html_instructions": "Bus towards Sollentuna station",
+              "polyline": {
+                "points": "{}niJcullB@MLH\\V@@`Aj@@@FDVNn@d@`@V|@j@TP`An@b@X`Ar@FDXTHFLJr@j@JHJHPNFFf@`@NJPN@@NL^ZFDXT`BtA^\\RNLJb@^\\X@?VTRN\\Z`Av@BF@DDBBDDDDFFN?@?@?@?@@@?@?@?@@@?@@@?@@??@@@@@@@@?@??@@?@??A@?@??A@?@A?A@??A@??A?A@??A?A?A@??A?A?A?A@??A?A?A?A?A?A?A?A?A?A?A?A?AAA?A?A?AAA?AFoA~@{GD[x@aGh@uDx@aGRwA@KJs@Fa@Hq@Hm@BK@KHg@Ho@NqADWHk@Po@Ry@Xg@Na@?@@@@??@@?@@@?@?@?@?@?@A@?@A@A?A@??A@A?A@A?A?A@A?A?A?A?C?A@CPi@Le@\\e@NOVe@HGBEBEVy@BIDG@EFGNSLGBADCFKHSBIBODSBU@S@a@@I?G?KAW?GAGAEAKAEEMEMEGGEEEGCGAG?E@EBCBEBMEO@E?C@W?O?OAKAE?QCKEMCICKCCAUMYQg@a@WUEEOOSC[g@_@q@Q]a@q@i@}@Q[e@m@o@s@_Ay@c@[i@]cBcAMSECg@a@a@_@CCSUIKCCCEOSQ[]o@O_@M[Ys@AIEKGSK_@Me@Ka@Kc@Ic@Ka@E[EOO{@CMG_@EQMy@EWEQGe@I_@AGG]EYMm@EOGWI_@Ka@Ka@Ka@ACK[M_@O_@M]AAMYIK?AA?O?MUOUACMSCCMSAAQSAAOQACQQKKGGSSQQSQUQSOKGECQMUMCAQKe@U]Q]OSIc@SOGOI]OOEe@UYMKEUKg@WWOYO]S[QWOSOKGQKG_@]WSQQOSQCCOMOO[[OOMMEEOQSSQSGGGGKM?AOOIMQQQWA?QUQUQU[a@Yc@KOKOOUEa@I]KQIKKGICM?I@MLILCDWv@M\\GNILGLA?GJEFQRSTKLEDUTGHA?OJIJMLEF_AbAMLKHGDE@E?SAIICCCAA?EAGAE?EBE@EBCBCDEDEHITAJAHCX?P@J?F@NBN@F@HBF@B@BFLBBBBFDBBP\\FRDV@N?H@TCZAXE`@CZIl@APOp@Kb@ADAVGLINOZSZGJ[f@ABIW"
+              },
+              "start_location": {
+                "lat": 59.39182299999999,
+                "lng": 17.928663
+              },
+              "transit_details": {
+                "arrival_stop": {
+                  "location": {
+                    "lat": 59.399738,
+                    "lng": 17.94713
+                  },
+                  "name": "Kista Arvingevagen"
+                },
+                "arrival_time": {
+                  "text": "12:10 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677409853
+                },
+                "departure_stop": {
+                  "location": {
+                    "lat": 59.39182299999999,
+                    "lng": 17.928663
+                  },
+                  "name": "Bytorget"
+                },
+                "departure_time": {
+                  "text": "12:02 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677409363
+                },
+                "headsign": "Sollentuna station",
+                "line": {
+                  "agencies": [
+                    {
+                      "name": "Storstockholms Lokaltrafik",
+                      "phone": "011 46 8 600 10 00",
+                      "url": "http://www.sl.se/"
+                    }
+                  ],
+                  "color": "#c03548",
+                  "short_name": "514",
+                  "text_color": "#ffffff",
+                  "vehicle": {
+                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                    "name": "Bus",
+                    "type": "BUS"
+                  }
+                },
+                "num_stops": 4
+              },
+              "travel_mode": "TRANSIT"
+            },
+            {
+              "distance": {
+                "text": "0.4 km",
+                "value": 422
+              },
+              "duration": {
+                "text": "6 mins",
+                "value": 332
+              },
+              "end_location": {
+                "lat": 59.4024849,
+                "lng": 17.9467505
+              },
+              "html_instructions": "Walk to Hanstavägen 55 F, 164 53 Kista, Sweden",
+              "polyline": {
+                "points": "eopiJwhplBCQCQEYM{@Ko@GEKGC?AAA?A@A@AFETAFCBEDCBA?KHKDGBC@IBG?CACCOKGQIWSs@I[G[IWEECACAEAECCACEMEeAtAY\\EDc@h@W^Wb@CFA@Of@ADAF?@EZ?JELCDADGFYb@"
+              },
+              "start_location": {
+                "lat": 59.3997107,
+                "lng": 17.9471562
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "53 m",
+                    "value": 53
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 37
+                  },
+                  "end_location": {
+                    "lat": 59.39991130000001,
+                    "lng": 17.9480063
+                  },
+                  "html_instructions": "Head <b>northeast</b> toward <b>Knarrarnäsgatan</b>",
+                  "polyline": {
+                    "points": "eopiJwhplBCQCQEYM{@Ko@"
+                  },
+                  "start_location": {
+                    "lat": 59.3997107,
+                    "lng": 17.9471562
+                  },
+                  "travel_mode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "11 m",
+                    "value": 11
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 8
+                  },
+                  "end_location": {
+                    "lat": 59.4000074,
+                    "lng": 17.9480768
+                  },
+                  "html_instructions": "Turn <b>left</b> onto <b>Knarrarnäsgatan</b>",
+                  "maneuver": "turn-left",
+                  "polyline": {
+                    "points": "mppiJanplBGEKG"
+                  },
+                  "start_location": {
+                    "lat": 59.39991130000001,
+                    "lng": 17.9480063
+                  },
+                  "travel_mode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "0.2 km",
+                    "value": 162
+                  },
+                  "duration": {
+                    "text": "2 mins",
+                    "value": 144
+                  },
+                  "end_location": {
+                    "lat": 59.4011576,
+                    "lng": 17.9487906
+                  },
+                  "html_instructions": "Slight <b>left</b> to stay on <b>Knarrarnäsgatan</b>",
+                  "maneuver": "turn-slight-left",
+                  "polyline": {
+                    "points": "aqpiJonplBC?AAA?A@A@AFETAFCBEDCBA?KHKDGBC@IBG?CACCOKGQIWSs@I[G[IWEECACAEAECCACEME"
+                  },
+                  "start_location": {
+                    "lat": 59.4000074,
+                    "lng": 17.9480768
+                  },
+                  "travel_mode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "0.2 km",
+                    "value": 196
+                  },
+                  "duration": {
+                    "text": "2 mins",
+                    "value": 143
+                  },
+                  "end_location": {
+                    "lat": 59.4024849,
+                    "lng": 17.9467505
+                  },
+                  "html_instructions": "Turn <b>left</b>",
+                  "maneuver": "turn-left",
+                  "polyline": {
+                    "points": "gxpiJ}rplBeAtAY\\EDc@h@W^Wb@CFA@Of@ADAF?@EZ?JELCDADGFYb@"
+                  },
+                  "start_location": {
+                    "lat": 59.4011576,
+                    "lng": 17.9487906
+                  },
+                  "travel_mode": "WALKING"
+                }
+              ],
+              "travel_mode": "WALKING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        }
+      ],
+      "overview_polyline": {
+        "points": "kaoiJsqllB\\mDpA|@@MnBnApA|@dHxEvC`C|KdJp@j@`Av@BFFHHJLZ@DBLDDFBFCHS@[CMFoA~@{G~@}GxB{O`AeH^uCd@iBXg@Na@@B@@D@JAFKBQ@E^oA\\e@f@u@LMZ_AR_@NSLGHEP_@FYHi@Bu@?u@Ea@Si@MKOEM@IFEBMEU@{@?o@Kg@Mo@_@_Aw@UUSCoBiD{@yAuAaBcBuAmCaBSWiAaAWYa@i@o@kA]{@i@}Aq@kCa@qBcAeG_AuEe@iBw@yBYi@Q?]k@a@o@e@i@g@i@oAiAw@i@qAq@aEgBaBu@wBkAsAy@QKG_@wAkA_A}@iBmB}AmByAqBW_@OUEa@Uo@USWCI@MLMRe@tA[j@cBpBi@d@_BbBMFYASOMCKBSNKNK`@C`AFn@HXVZT`@Lj@@XAp@UdCQbAMh@AVGLYj@y@rAIWDEGc@SuAKo@GEOGCAEJG\\IH]RKDQBGEW]o@cCO]GCKEGGMEeAtA_@b@{@hA[j@Uv@Kv@g@v@"
+      },
+      "summary": "",
+      "warnings": [
+        "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+      ],
+      "waypoint_order": []
+    }
+  ],
+  "status": "OK"
+}
