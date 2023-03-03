@@ -2,19 +2,18 @@
   "geocoded_waypoints": [
     {
       "geocoder_status": "OK",
-      "place_id": "ChIJSfcbwVieX0YRvJg_clop4HM",
+      "place_id": "ChIJZ9zCv9uhX0YRQCKNsvX-AAo",
       "types": [
-        "street_address"
+        "locality",
+        "political"
       ]
     },
     {
       "geocoder_status": "OK",
-      "partial_match": true,
-      "place_id": "ChIJ3wMi6vKeX0YRrFmHpKBsHg0",
+      "place_id": "ChIJI3nEC_iBX0YRTh5pF4GA4jo",
       "types": [
-        "establishment",
-        "point_of_interest",
-        "shopping_mall"
+        "administrative_area_level_2",
+        "political"
       ]
     }
   ],
@@ -22,112 +21,178 @@
     {
       "bounds": {
         "northeast": {
-          "lat": 59.4024849,
-          "lng": 17.9530374
+          "lat": 59.423019,
+          "lng": 18.2705738
         },
         "southwest": {
-          "lat": 59.3820164,
-          "lng": 17.9235539
+          "lat": 59.30454089999999,
+          "lng": 17.8322983
         }
       },
       "copyrights": "Map data ©2023 Google",
       "legs": [
         {
           "arrival_time": {
-            "text": "12:17 PM",
+            "text": "7:37 PM",
             "time_zone": "Europe/Stockholm",
-            "value": 1677410228
+            "value": 1677609425
           },
           "departure_time": {
-            "text": "12:01 PM",
+            "text": "6:28 PM",
             "time_zone": "Europe/Stockholm",
-            "value": 1677409279
+            "value": 1677605280
           },
           "distance": {
-            "text": "4.7 km",
-            "value": 4704
+            "text": "33.1 km",
+            "value": 33074
           },
           "duration": {
-            "text": "16 mins",
-            "value": 949
+            "text": "1 hour 9 mins",
+            "value": 4145
           },
-          "end_address": "Hanstavägen 55 F, 164 53 Kista, Sweden",
+          "end_address": "Nacka Municipality, Sweden",
           "end_location": {
-            "lat": 59.4024849,
-            "lng": 17.9467505
+            "lat": 59.3093329,
+            "lng": 18.2705738
           },
-          "start_address": "Stavbygränd 7, 163 75 Spånga, Sweden",
+          "start_address": "Jakobsberg, Sweden",
           "start_location": {
-            "lat": 59.39237999999999,
-            "lng": 17.9281043
+            "lat": 59.423019,
+            "lng": 17.833344
           },
           "steps": [
             {
               "distance": {
-                "text": "0.1 km",
-                "value": 108
+                "text": "17.8 km",
+                "value": 17795
+              },
+              "duration": {
+                "text": "21 mins",
+                "value": 1260
+              },
+              "end_location": {
+                "lat": 59.331139,
+                "lng": 18.0595
+              },
+              "html_instructions": "Train towards Västerhaninge",
+              "polyline": {
+                "points": "{`uiJkazkB@pBz@ClAAxI\\|Fr@f@Fp@HN?f@@B?lAEXCRARCD?`AMBA`A]jAc@zA_Av@m@d@e@f@a@f@m@Za@RWXe@Xe@Tc@Te@Ra@N[Vm@Re@Rm@L_@Nc@J_@HYPo@Nm@Rw@R_ALs@TkAJq@TqAHo@PgAV_BRuALy@PmAPcAPkANaAN_AL}@RuAV}AT{ARqAPgAPgANaAN_APeALy@N{@RiAP_AZ_BF_@XyA@A^gBVqAPw@XsAPu@\\yATy@@IVaAXiA`A}Dt@qCh@sBn@cCr@kCv@}Cn@aCr@oCr@oCH[d@eBd@eBn@cCd@gBh@sBz@eDx@aDz@gDp@}BLe@t@gC\\iAJ]BIRk@f@gBn@wB?An@_Cj@uBLe@^wAl@yBf@oB\\kATw@DObAuCXs@Xw@Re@HQ\\{@p@yAj@mAt@uAXm@R]n@mAt@oAR[V_@j@{@h@y@bAwAdAsA~@oAfA{AfAwAv@iARW`AyA`@k@p@_AdAyA?AhA_BNSb@k@bAqAl@y@l@y@d@q@`@k@jAaBRW`@i@n@{@d@q@b@o@pAgB~@oAJQdAuA|@uA`AiArAqBDGhAyAdAqAt@w@x@w@nB}AhByAf@a@NKTUh@i@f@m@lAcB`A_BrAqCfAeC^}@Xq@~AuDb@w@\\}@z@mB`AuBzA{DxAyDtAsD?ChAeDn@gBX{@hAeDVs@Pg@z@eCtAqDJYjBiFfBeFNa@l@iBVcAhAgDrAqD|DuKzCoITm@p@oBZw@n@aBPk@l@aBt@wBj@yAp@iBl@cB`@kANe@DOf@}Al@sBf@qBh@qBViA^mB^wBTmALo@BOXiBRmATcBHa@Fa@Ls@jAsHJq@RoA^{Br@sEr@eEr@qEn@cELw@Fc@RqAf@_Db@uCV{APiADYN}@BUPcARqA^aCZmB\\{B^_C\\wBj@sDjAsHfA_Hh@oDBML}@Js@DQZqBLy@BIJu@ZoBPoAV}ADa@N_ATeBb@qCf@oDj@wDl@qDz@gFd@{Cp@cEd@_DH_ADWJkAD}@JyBDkAHyBF}AFmAHeAF{@LeALeAF]PiAVmA^qBVgAF]R{@n@yCbBcIR_AtAmGNu@^cBb@sB`@kBBMb@iB\\{A\\}AF[R{@^iBBOP}@BQd@}BJe@R{@H]F]Jm@PRhBmIBMBKBIBMpAkFDM@E?C@A@GDGvGaTJ]dL}^\\kADK@E@GBE@GBMR{@@I@G@A@GBMPgABI?G@C@G@E@KLiABK?G@G@IJgA@S?G@C?C@G@UFgA?K@G?C?I?KDiA?K@G?G?C?I?KJyS?U?G?G?YXwS?Y?K@SR_L?K?G?G?MLgU@Q?K?K?QAaT?}A?O?G?C?C?C?C?C?GAMEw@QkDAO?G?EAA?I?OEiBAK?M?GAKAyB?QAG?C?C@G?KBmC?G?G?C@C?G?KDo@@S@K?KD_A?G@G@G?C?C@G?G@GNiARiBBK?G@A?C@GBKXuAP_ABK@G?A@C@C?A@CBE@Eb@iA`AkCZy@BIBE@A?ABEBE@CHKBGBC@CBCFGT[FGDEFGnBsBnKwFHCBADCHEhDwADCBADCDCnBeAHEBA?ABA@ADEr@i@j@e@DCBC@ABCBCDGtA}AJKFI~BqCFIBC?ABCBEDEnDoFXm@Vo@Xu@Vw@Rq@Nq@Pu@P}@PgAPsAL{@JiAHcADcAFmABeA@{@@}A@gB@uCA}B?yB?uA?C?cCAuE?uD?_D?wDAkC@iDA{G?aD?iCDaCDwBHuBLqBN_BLoAVkB^sBz@yEdAsF^qBVmAl@_Dj@wCXaBZmB^{B`@cCZiBVoAVuA\\qAd@qBf@{Ab@uAj@}An@{Al@qAt@oAn@gAp@aAb@k@r@w@bAaAt@m@p@g@pAw@t@_@tAe@fAW`B_@z@QxA[x@OtAU~AYhB[`Ca@bBWdAU`BUrASr@K@?Cs@"
+              },
+              "start_location": {
+                "lat": 59.423019,
+                "lng": 17.833344
+              },
+              "transit_details": {
+                "arrival_stop": {
+                  "location": {
+                    "lat": 59.331139,
+                    "lng": 18.0595
+                  },
+                  "name": "Stockholm City"
+                },
+                "arrival_time": {
+                  "text": "6:49 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677606540
+                },
+                "departure_stop": {
+                  "location": {
+                    "lat": 59.423019,
+                    "lng": 17.833344
+                  },
+                  "name": "Jakobsberg"
+                },
+                "departure_time": {
+                  "text": "6:28 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677605280
+                },
+                "headsign": "Västerhaninge",
+                "line": {
+                  "agencies": [
+                    {
+                      "name": "Storstockholms Lokaltrafik",
+                      "phone": "011 46 8 600 10 00",
+                      "url": "http://www.sl.se/"
+                    }
+                  ],
+                  "color": "#f166a7",
+                  "short_name": "43",
+                  "text_color": "#ffffff",
+                  "vehicle": {
+                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png",
+                    "name": "Train",
+                    "type": "HEAVY_RAIL"
+                  }
+                },
+                "num_stops": 5
+              },
+              "travel_mode": "TRANSIT"
+            },
+            {
+              "distance": {
+                "text": "77 m",
+                "value": 77
               },
               "duration": {
                 "text": "1 min",
-                "value": 83
+                "value": 78
               },
               "end_location": {
-                "lat": 59.39182289999999,
-                "lng": 17.9286623
+                "lat": 59.33080200000001,
+                "lng": 18.0590902
               },
-              "html_instructions": "Walk to Bytorget",
+              "html_instructions": "Walk to T-Centralen",
               "polyline": {
-                "points": "kaoiJsqllBHu@J_AB[B[z@l@TN"
+                "points": "sbciJ{ffmBxAEUvA"
               },
               "start_location": {
-                "lat": 59.39237999999999,
-                "lng": 17.9281043
+                "lat": 59.331139,
+                "lng": 18.0595
               },
               "steps": [
                 {
                   "distance": {
-                    "text": "56 m",
-                    "value": 56
+                    "text": "50 m",
+                    "value": 50
                   },
                   "duration": {
                     "text": "1 min",
-                    "value": 40
+                    "value": 51
                   },
                   "end_location": {
-                    "lat": 59.39222529999999,
-                    "lng": 17.9289697
+                    "lat": 59.33068799999999,
+                    "lng": 18.05953
                   },
-                  "html_instructions": "Head <b>east</b> on <b>Stavbygränd</b> toward <b>Rinkebystråket</b>",
+                  "html_instructions": "Take exit <span class=\"location\">Vasagatan/Tunnelbana</span>",
                   "polyline": {
-                    "points": "kaoiJsqllBHu@J_AB[B["
+                    "points": "sbciJ{ffmBxAE"
                   },
                   "start_location": {
-                    "lat": 59.39237999999999,
-                    "lng": 17.9281043
+                    "lat": 59.331139,
+                    "lng": 18.0595
                   },
                   "travel_mode": "WALKING"
                 },
                 {
                   "distance": {
-                    "text": "52 m",
-                    "value": 52
+                    "text": "27 m",
+                    "value": 27
                   },
                   "duration": {
                     "text": "1 min",
-                    "value": 43
+                    "value": 27
                   },
                   "end_location": {
-                    "lat": 59.39182289999999,
-                    "lng": 17.9286623
+                    "lat": 59.33080200000001,
+                    "lng": 18.0590902
                   },
-                  "html_instructions": "Turn <b>right</b> onto <b>Rinkebystråket</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
-                  "maneuver": "turn-right",
                   "polyline": {
-                    "points": "m`oiJawllBz@l@TN"
+                    "points": "y_ciJagfmBUvA"
                   },
                   "start_location": {
-                    "lat": 59.39222529999999,
-                    "lng": 17.9289697
+                    "lat": 59.33068799999999,
+                    "lng": 18.05953
                   },
                   "travel_mode": "WALKING"
                 }
@@ -136,51 +201,167 @@
             },
             {
               "distance": {
-                "text": "4.2 km",
-                "value": 4174
+                "text": "1.5 km",
+                "value": 1544
               },
               "duration": {
-                "text": "8 mins",
-                "value": 490
+                "text": "3 mins",
+                "value": 180
               },
               "end_location": {
-                "lat": 59.399738,
-                "lng": 17.94713
+                "lat": 59.3194074,
+                "lng": 18.0722943
               },
-              "html_instructions": "Bus towards Sollentuna station",
+              "html_instructions": "Subway towards Liljeholmen",
               "polyline": {
-                "points": "{}niJcullB@MLH\\V@@`Aj@@@FDVNn@d@`@V|@j@TP`An@b@X`Ar@FDXTHFLJr@j@JHJHPNFFf@`@NJPN@@NL^ZFDXT`BtA^\\RNLJb@^\\X@?VTRN\\Z`Av@BF@DDBBDDDDFFN?@?@?@?@@@?@?@?@@@?@@@?@@??@@@@@@@@?@??@@?@??A@?@??A@?@A?A@??A@??A?A@??A?A?A@??A?A?A?A@??A?A?A?A?A?A?A?A?A?A?A?A?AAA?A?A?AAA?AFoA~@{GD[x@aGh@uDx@aGRwA@KJs@Fa@Hq@Hm@BK@KHg@Ho@NqADWHk@Po@Ry@Xg@Na@?@@@@??@@?@@@?@?@?@?@?@A@?@A@A?A@??A@A?A@A?A?A@A?A?A?A?C?A@CPi@Le@\\e@NOVe@HGBEBEVy@BIDG@EFGNSLGBADCFKHSBIBODSBU@S@a@@I?G?KAW?GAGAEAKAEEMEMEGGEEEGCGAG?E@EBCBEBMEO@E?C@W?O?OAKAE?QCKEMCICKCCAUMYQg@a@WUEEOOSC[g@_@q@Q]a@q@i@}@Q[e@m@o@s@_Ay@c@[i@]cBcAMSECg@a@a@_@CCSUIKCCCEOSQ[]o@O_@M[Ys@AIEKGSK_@Me@Ka@Kc@Ic@Ka@E[EOO{@CMG_@EQMy@EWEQGe@I_@AGG]EYMm@EOGWI_@Ka@Ka@Ka@ACK[M_@O_@M]AAMYIK?AA?O?MUOUACMSCCMSAAQSAAOQACQQKKGGSSQQSQUQSOKGECQMUMCAQKe@U]Q]OSIc@SOGOI]OOEe@UYMKEUKg@WWOYO]S[QWOSOKGQKG_@]WSQQOSQCCOMOO[[OOMMEEOQSSQSGGGGKM?AOOIMQQQWA?QUQUQU[a@Yc@KOKOOUEa@I]KQIKKGICM?I@MLILCDWv@M\\GNILGLA?GJEFQRSTKLEDUTGHA?OJIJMLEF_AbAMLKHGDE@E?SAIICCCAA?EAGAE?EBE@EBCBCDEDEHITAJAHCX?P@J?F@NBN@F@HBF@B@BFLBBBBFDBBP\\FRDV@N?H@TCZAXE`@CZIl@APOp@Kb@ADAVGLINOZSZGJ[f@ABIW"
+                "points": "k`ciJmdfmBh@uENJlAr@BB\\NVLVFRALCVMbAi@`@U`@Uh@YXQVQh@g@BCVi@Xq@Vo@lAsCXo@Xo@DIRg@lAqCXq@Xo@Zw@rAuB\\i@^k@z@eAdAcAXS`@YROpAu@j@[VObAo@\\SBCj@k@z@mA@?Zi@T_@DIp@mARa@b@y@h@eAj@gABGDIN_@Na@HQHO\\}@BE\\k@LS\\e@\\e@^e@|AaB^a@JKBP"
               },
               "start_location": {
-                "lat": 59.39182299999999,
-                "lng": 17.928663
+                "lat": 59.33077770000001,
+                "lng": 18.0591112
               },
               "transit_details": {
                 "arrival_stop": {
                   "location": {
-                    "lat": 59.399738,
-                    "lng": 17.94713
+                    "lat": 59.3194074,
+                    "lng": 18.0722943
                   },
-                  "name": "Kista Arvingevagen"
+                  "name": "Slussen"
                 },
                 "arrival_time": {
-                  "text": "12:10 PM",
+                  "text": "6:59 PM",
                   "time_zone": "Europe/Stockholm",
-                  "value": 1677409853
+                  "value": 1677607140
                 },
                 "departure_stop": {
                   "location": {
-                    "lat": 59.39182299999999,
-                    "lng": 17.928663
+                    "lat": 59.33077770000001,
+                    "lng": 18.0591112
                   },
-                  "name": "Bytorget"
+                  "name": "T-Centralen"
                 },
                 "departure_time": {
-                  "text": "12:02 PM",
+                  "text": "6:56 PM",
                   "time_zone": "Europe/Stockholm",
-                  "value": 1677409363
+                  "value": 1677606960
                 },
-                "headsign": "Sollentuna station",
+                "headsign": "Liljeholmen",
+                "line": {
+                  "agencies": [
+                    {
+                      "name": "Storstockholms Lokaltrafik",
+                      "phone": "011 46 8 600 10 00",
+                      "url": "http://www.sl.se/"
+                    }
+                  ],
+                  "color": "#db0812",
+                  "name": "Röda linjen",
+                  "short_name": "14",
+                  "vehicle": {
+                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                    "local_icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/se-stockholm-metro.png",
+                    "name": "Subway",
+                    "type": "SUBWAY"
+                  }
+                },
+                "num_stops": 2
+              },
+              "travel_mode": "TRANSIT"
+            },
+            {
+              "distance": {
+                "text": "0.2 km",
+                "value": 187
+              },
+              "duration": {
+                "text": "3 mins",
+                "value": 187
+              },
+              "end_location": {
+                "lat": 59.3194518,
+                "lng": 18.0755282
+              },
+              "html_instructions": "Walk to Slussen",
+              "polyline": {
+                "points": "az`iJmvhmBNsS"
+              },
+              "start_location": {
+                "lat": 59.319533,
+                "lng": 18.0722301
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "0.2 km",
+                    "value": 187
+                  },
+                  "duration": {
+                    "text": "3 mins",
+                    "value": 187
+                  },
+                  "end_location": {
+                    "lat": 59.3194518,
+                    "lng": 18.0755282
+                  },
+                  "polyline": {
+                    "points": "az`iJmvhmBNsS"
+                  },
+                  "start_location": {
+                    "lat": 59.319533,
+                    "lng": 18.0722301
+                  },
+                  "travel_mode": "WALKING"
+                }
+              ],
+              "travel_mode": "WALKING"
+            },
+            {
+              "distance": {
+                "text": "13.1 km",
+                "value": 13142
+              },
+              "duration": {
+                "text": "22 mins",
+                "value": 1323
+              },
+              "end_location": {
+                "lat": 59.307846,
+                "lng": 18.266432
+              },
+              "html_instructions": "Bus towards Boo backe",
+              "polyline": {
+                "points": "{y`iJgkimBAABYLgALk@@GBGHk@Ju@Bk@@W?W?OEw@ZuB|AeKD]VqBd@aEJ]BUHq@Dg@NsAJ}@N}@JoABc@@U?_@NaDH}BJeCNiD@[By@JeCXyGJiC?[Fq@HeAFq@Hs@f@mEb@qDX_AJ[BIDKJSDGNSPK~@Y`A_@RGVYNSFMDOPk@J[Ji@H]H]Ls@PgAN}@N_Ad@iCTkAXeBD]BSBUFy@@m@@O?[?]?mA?i@AaBAoA@qBBqA@k@Dq@?C@K?I@OB[BWDi@F_@TqARqAR{@Ji@Jc@DKPg@b@mAXs@JYLWP_@PWNUPOHGHGLKNKLENELEXCT?L?PBLDFBFBFBHHHDJJNRLNNTHRFJ@@DHFLLVVl@Vh@R`@LRPTDFJJLLJFJHJDLDRBF@F@J?LAFAJCJCNGJEHEFCHGNOJOVa@FOFODKHWFUBMFSF[F]BMLs@DYD_@Hq@Dg@Fu@Do@Dg@Bc@Dq@@I@]Bc@@k@@A@i@@i@@cA?O@i@?o@Am@?E?e@A_@?MAw@AYAk@EeAAw@Ac@EcBGuBQyHIkCEiBAc@Cs@AQGyBEcA?AGuAAM?MIsAM{BAGGcA?AIqAGmACm@Cg@Cm@EmACqAAq@?mA?k@?g@@sABk@BoA@k@Bg@D}A@MBqA@k@Bw@?[@cB?]?g@Ac@?YA_@A]CeAA[A[Cg@Eg@Cg@CIAGGYGq@CWGi@K{@Gk@AKQeAUqAGYKe@G[I_@Mm@COWsAScAGk@Ks@Km@Ec@G]OeAE[O}A?E?AEg@G{@MaBEeAEi@ASC_ACi@A[AYCaA?CCeACmBEyBAUEoCCeAAMAw@EkBGqDAo@GiCAg@I}BEcAEkAGsAG}@IsAKkACc@AMEc@MsAI_AE[C_@QaBMiACUMy@MgAGi@MgAKaAAIKgAEe@McBAWIoACe@Ew@?KC{@?s@CgAAu@?WAg@?g@?}@?y@@a@?_@@i@FSB[Bg@?MNuC?A@MBWDk@Hm@NcAJs@BQDQHg@Jg@P}@Jk@RcAHg@Hc@DUDe@F]Fk@DY?A?A?A@IJu@BGBCDCB?@?@@DBH^@DPj@Lh@FT?BAB?@?B?@?BAB?B?B?B@@?B?B?@?@@@?@?B@@?B@@@@?@@@@@?@@@@?@@@@@?@?@@@A@?@?@A@?@A@??A@A@A?A@A@C?A@A?C@A?C?A@CFQFSDM@G@C?EBSX}@T_ARm@DODSBQ?W?M?YAUCY?A?A?A?A?C?A?C?A?C?AAC?A?AAC?A?AAAAC?AA?AAA??AA?A?A??@A?A??@A??@A@A@?@KEKA}@FKBQBI@MAIGOMEKEIEICIIk@Eq@?KEy@Eo@KgBAQGqACe@AIAYIeBCq@AS?GC[EeAEmACg@AMCS@A?A@??A?A@A?A?A?A@A?A?A?C?A?A?C?A?C?AAA?C?A?AAA?CAA?AAA?AAAAAA??AGo@M_BEWi@eFGq@Ek@G[K{@AE@OAKAIAGYqB?AGw@Eo@AGCg@GwBAcACYBmA@iADg@Bg@H_AFo@@I@ADa@Jq@Jq@DY@OBMVy@B?BABADCBC@G@E@I@E@KAGAKAICECIIm@CICQG[]yA?ACMACIa@AACOAEIWk@sC]}ASiAG]Ik@C]a@{BQaAI]Mg@ACAESeAY_BOu@Ke@GWW{@_@eAe@kAUo@EMEMCKCKEMEOCMACCKESI]CKKe@AIAGCQCQEUO}@QaBGi@?CE_@SmB?EQiBM_BGo@?AACS[U_EMmCOqCGqAE_AASCi@EgAEq@Ag@E}@Ci@Ci@C_ACi@Ck@Ag@Ck@Ag@Ci@Ai@Ci@EsAAg@Ai@Ci@Ak@Ag@Ci@Ai@E}BG}BAi@CoAAcAAYAmAA_@AgAA_AAi@Ai@?i@Ag@?k@?sA?yA?U@{@@g@?g@BkA@u@@g@Be@@o@Bi@Bi@Bi@Bi@Bi@Bg@Di@Di@Dk@@MP}BBSB_@JaA@MHu@BQBW@ADa@J}@BKT}A?AHk@BSDYBQL{@He@F_@NiAHg@Hg@He@Fa@Fe@Jk@Fe@Ly@Lw@Fc@Fe@Fe@Fg@Dg@De@Dg@Di@Dg@Bg@Bi@Bi@@g@@i@BsA@o@?c@?i@?u@?YAwAAo@?o@AoAAi@?g@Ag@?i@As@?W?KAgAAaB?e@CgDAqBEqE?k@AgA?e@@a@@kALU?AFk@BG?GF[Ha@He@DQ@ELw@@CJg@^mBF[BGBSHa@@EF[BQ@SBQ?K?IA]ZGNAHA^@ZDXH`@NRNXTjBlBVV\\\\PRTLVJVJRD^FH?RANC`@IF?h@Sd@[p@c@NKTQ\\W?ANKDEjBqAbBmAROvAeArA{@JMTUHKNS@CFKVa@FKFKJUFMDK?CTu@?APu@NeABiAHQ@G@G@M@a@@OB_A@k@@]@aA?CBuC?[@w@By@@YEg@j@_FVy@HYHc@DMLe@@ELi@Rq@ZqA`@{ALe@J_@FSH[N}@Lw@L}AFkAB_A?s@?u@Cw@EgAWgCOwAGa@Ek@Eo@@?@A@??A@A@A?A@A?A?A@A?A?A@A?A?A?A?A?A?A?A?A?A?A?A?A?A?A?AAA?A?AAA?A?AAA?AA??AA??AAAA??AA?A?AA?@A?Co@AS?SAw@?cA?k@DsEDaD?o@B}ADmBD_DA_@EyAEsAKoBe@gHUsDGw@MeAk@oEUqAUsA?Au@gEMi@Kg@ISGSGOCGEKBM@Q@WCYCYE_@c@kDk@eEa@{CKs@WsBSwBK}@M_BGy@WgDYeEOmBEu@Ea@EB"
+              },
+              "start_location": {
+                "lat": 59.3195,
+                "lng": 18.075562
+              },
+              "transit_details": {
+                "arrival_stop": {
+                  "location": {
+                    "lat": 59.307846,
+                    "lng": 18.266432
+                  },
+                  "name": "Sjöstugan"
+                },
+                "arrival_time": {
+                  "text": "7:33 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677609183
+                },
+                "departure_stop": {
+                  "location": {
+                    "lat": 59.3195,
+                    "lng": 18.075562
+                  },
+                  "name": "Slussen"
+                },
+                "departure_time": {
+                  "text": "7:11 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677607860
+                },
+                "headsign": "Boo backe",
                 "line": {
                   "agencies": [
                     {
@@ -190,7 +371,7 @@
                     }
                   ],
                   "color": "#c03548",
-                  "short_name": "514",
+                  "short_name": "442",
                   "text_color": "#ffffff",
                   "vehicle": {
                     "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
@@ -198,124 +379,100 @@
                     "type": "BUS"
                   }
                 },
-                "num_stops": 4
+                "num_stops": 12
               },
               "travel_mode": "TRANSIT"
             },
             {
               "distance": {
-                "text": "0.4 km",
-                "value": 422
+                "text": "0.3 km",
+                "value": 329
               },
               "duration": {
-                "text": "6 mins",
-                "value": 332
+                "text": "4 mins",
+                "value": 240
               },
               "end_location": {
-                "lat": 59.4024849,
-                "lng": 17.9467505
+                "lat": 59.3093329,
+                "lng": 18.2705738
               },
-              "html_instructions": "Walk to Hanstavägen 55 F, 164 53 Kista, Sweden",
+              "html_instructions": "Walk to Nacka Municipality, Sweden",
               "polyline": {
-                "points": "eopiJwhplBCQCQEYM{@Ko@GEKGC?AAA?A@A@AFETAFCBEDCBA?KHKDGBC@IBG?CACCOKGQIWSs@I[G[IWEECACAEAECCACEMEeAtAY\\EDc@h@W^Wb@CFA@Of@ADAF?@EZ?JELCDADGFYb@"
+                "points": "{p~hJitnnBOwBG@MDGCECKMGIU[o@}@KMSUKIa@YAASKKGCOCc@Gw@I{@?CGw@Ku@AUC]Ag@?G?}@Ds@"
               },
               "start_location": {
-                "lat": 59.3997107,
-                "lng": 17.9471562
+                "lat": 59.30781719999999,
+                "lng": 18.2664466
               },
               "steps": [
                 {
                   "distance": {
-                    "text": "53 m",
-                    "value": 53
+                    "text": "35 m",
+                    "value": 35
                   },
                   "duration": {
                     "text": "1 min",
-                    "value": 37
+                    "value": 24
                   },
                   "end_location": {
-                    "lat": 59.39991130000001,
-                    "lng": 17.9480063
+                    "lat": 59.3078963,
+                    "lng": 18.2670478
                   },
-                  "html_instructions": "Head <b>northeast</b> toward <b>Knarrarnäsgatan</b>",
+                  "html_instructions": "Head <b>east</b> on <b>Sockenvägen</b> toward <b>Ekallén</b>",
                   "polyline": {
-                    "points": "eopiJwhplBCQCQEYM{@Ko@"
+                    "points": "{p~hJitnnBOwB"
                   },
                   "start_location": {
-                    "lat": 59.3997107,
-                    "lng": 17.9471562
+                    "lat": 59.30781719999999,
+                    "lng": 18.2664466
                   },
                   "travel_mode": "WALKING"
                 },
                 {
                   "distance": {
-                    "text": "11 m",
-                    "value": 11
-                  },
-                  "duration": {
-                    "text": "1 min",
-                    "value": 8
-                  },
-                  "end_location": {
-                    "lat": 59.4000074,
-                    "lng": 17.9480768
-                  },
-                  "html_instructions": "Turn <b>left</b> onto <b>Knarrarnäsgatan</b>",
-                  "maneuver": "turn-left",
-                  "polyline": {
-                    "points": "mppiJanplBGEKG"
-                  },
-                  "start_location": {
-                    "lat": 59.39991130000001,
-                    "lng": 17.9480063
-                  },
-                  "travel_mode": "WALKING"
-                },
-                {
-                  "distance": {
-                    "text": "0.2 km",
-                    "value": 162
+                    "text": "0.1 km",
+                    "value": 148
                   },
                   "duration": {
                     "text": "2 mins",
-                    "value": 144
+                    "value": 111
                   },
                   "end_location": {
-                    "lat": 59.4011576,
-                    "lng": 17.9487906
+                    "lat": 59.3090877,
+                    "lng": 18.2680856
                   },
-                  "html_instructions": "Slight <b>left</b> to stay on <b>Knarrarnäsgatan</b>",
-                  "maneuver": "turn-slight-left",
+                  "html_instructions": "Turn <b>left</b> onto <b>Ekallén</b>",
+                  "maneuver": "turn-left",
                   "polyline": {
-                    "points": "aqpiJonplBC?AAA?A@A@AFETAFCBEDCBA?KHKDGBC@IBG?CACCOKGQIWSs@I[G[IWEECACAEAECCACEME"
+                    "points": "kq~hJaxnnBG@MDGCECKMGIU[o@}@KMSUKIa@YAASKKG"
                   },
                   "start_location": {
-                    "lat": 59.4000074,
-                    "lng": 17.9480768
+                    "lat": 59.3078963,
+                    "lng": 18.2670478
                   },
                   "travel_mode": "WALKING"
                 },
                 {
                   "distance": {
-                    "text": "0.2 km",
-                    "value": 196
+                    "text": "0.1 km",
+                    "value": 146
                   },
                   "duration": {
                     "text": "2 mins",
-                    "value": 143
+                    "value": 105
                   },
                   "end_location": {
-                    "lat": 59.4024849,
-                    "lng": 17.9467505
+                    "lat": 59.3093329,
+                    "lng": 18.2705738
                   },
-                  "html_instructions": "Turn <b>left</b>",
-                  "maneuver": "turn-left",
+                  "html_instructions": "Turn <b>right</b> to stay on <b>Ekallén</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                  "maneuver": "turn-right",
                   "polyline": {
-                    "points": "gxpiJ}rplBeAtAY\\EDc@h@W^Wb@CFA@Of@ADAF?@EZ?JELCDADGFYb@"
+                    "points": "yx~hJq~nnBCOCc@Gw@I{@?CGw@Ku@AUC]Ag@?G?}@Ds@"
                   },
                   "start_location": {
-                    "lat": 59.4011576,
-                    "lng": 17.9487906
+                    "lat": 59.3090877,
+                    "lng": 18.2680856
                   },
                   "travel_mode": "WALKING"
                 }
@@ -328,7 +485,1431 @@
         }
       ],
       "overview_polyline": {
-        "points": "kaoiJsqllB\\mDpA|@@MnBnApA|@dHxEvC`C|KdJp@j@`Av@BFFHHJLZ@DBLDDFBFCHS@[CMFoA~@{G~@}GxB{O`AeH^uCd@iBXg@Na@@B@@D@JAFKBQ@E^oA\\e@f@u@LMZ_AR_@NSLGHEP_@FYHi@Bu@?u@Ea@Si@MKOEM@IFEBMEU@{@?o@Kg@Mo@_@_Aw@UUSCoBiD{@yAuAaBcBuAmCaBSWiAaAWYa@i@o@kA]{@i@}Aq@kCa@qBcAeG_AuEe@iBw@yBYi@Q?]k@a@o@e@i@g@i@oAiAw@i@qAq@aEgBaBu@wBkAsAy@QKG_@wAkA_A}@iBmB}AmByAqBW_@OUEa@Uo@USWCI@MLMRe@tA[j@cBpBi@d@_BbBMFYASOMCKBSNKNK`@C`AFn@HXVZT`@Lj@@XAp@UdCQbAMh@AVGLYj@y@rAIWDEGc@SuAKo@GEOGCAEJG\\IH]RKDQBGEW]o@cCO]GCKEGGMEeAtA_@b@{@hA[j@Uv@Kv@g@v@"
+        "points": "{`uiJkazkB@pBz@ClAAxI\\dHz@`AHrCGnBSdA_@jAc@zA_A|AsAnAoAbBeCnAgClAaDv@mCdAyE`A_GpCwQvCoRpCgPxCwNlR_u@hKs`@|EkP|FkTxBqGtAkDlDkHlCwEpDmFtGwIpJcNfJeMlIiLxGgJjEkFzHqGvByBnCcEzCwG|D}IvF}MxFwOzIwVpG{Q`BkFpGgQ~FePdDgJlDsJjBgGhC{KfAeGzDyVtGwa@lKiq@vJao@nIyi@`AcI`@}J`@mHt@sFrG_[jLyi@p@}CJm@PRlB{I|AoGHYvVkx@d@sB`@aCd@wEVmGd@gk@TcONqVAaXAq@[}GMkHVqJv@yGt@uDpCoH\\k@hDuDbLaG|DcBnC{AxBgBzF}G|D_GbBkEfAwE|@aHZ{GFwKCa_@AiWJePVgF\\oDv@_F`CmMdB_J`CcNlBsKnCuJzAyDbBaD`BiCvAcBxBoBbC_BjCeAhDw@dHsAnLoBnHkAAs@xAEUvAl@yE|A~@pAh@`@EzAw@fCwA`Ay@Zm@xCeH`CsFr@aBnBmD|@uA`CiC`DsBdDoBjB}BlEcIfC{FlAkBzDoEJKBPWJNsSKGPaB\\gBPqCEgAxB{NnAoJnAsL|@{Up@eQb@}EjA_Kd@{AZq@`@_@`Cy@j@a@Va@n@aCr@wDbCaOJsCAwFD_IFaAHmAv@mFp@uCzAcE`AeBr@k@l@WjAIn@Pf@^nArBpApCp@|@p@d@p@Ll@Gp@Wl@k@l@mA~@kEr@eIT_G?gHUqKy@i[g@gKg@qJK_HDsEZeMCaI[gGcAgIeB_JwAuJw@{KU_I_@eSSsK]aJaAgMqAiLgAmMSoJAgE@aAH}@VgFJsAvAwInAaIVgBNGRj@d@xB?ZNb@LBLIb@{AvA{FEsBCc@KMKFABWGiAJ[DWIa@m@SsBYcF_@oIW}FDMEi@EIuAmNs@}FOqBQ}FNgFT{Bb@_DD]Zy@PKF]YqB{@_E_CsLgBqJ}@sEsB}Fe@cBg@aCw@gGcAsKS[U_E]_HSoEc@}Ks@{WWkOG_MNqJ^sIt@eJ~@kHhCiQfAwI`@gI@iLGoJOsV@{ETcAt@cEhAyFPsA?UA]ZGXCz@Fz@Xl@d@rDvDxAj@lA@h@InAo@tByA`CeBbH_Fz@cAjAyBf@qBRoCJYFgAHkEDmFDsAEg@j@_F`@sANq@\\uAlCsKZuCJkCIiFw@_JHQGs@EEIo@FuRLkKKmDq@wK]kFy@uGaBoJk@yBKWAYC}AwBmPcA}IgAgOUcDK]I{BUFa@_@eB}BcAq@OWK{A]mDGcBDqB"
+      },
+      "summary": "",
+      "warnings": [
+        "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+      ],
+      "waypoint_order": []
+    },
+    {
+      "bounds": {
+        "northeast": {
+          "lat": 59.423019,
+          "lng": 18.2705738
+        },
+        "southwest": {
+          "lat": 59.30454,
+          "lng": 17.8322983
+        }
+      },
+      "copyrights": "Map data ©2023 Google",
+      "legs": [
+        {
+          "arrival_time": {
+            "text": "7:37 PM",
+            "time_zone": "Europe/Stockholm",
+            "value": 1677609425
+          },
+          "departure_time": {
+            "text": "6:28 PM",
+            "time_zone": "Europe/Stockholm",
+            "value": 1677605280
+          },
+          "distance": {
+            "text": "33.8 km",
+            "value": 33761
+          },
+          "duration": {
+            "text": "1 hour 9 mins",
+            "value": 4145
+          },
+          "end_address": "Nacka Municipality, Sweden",
+          "end_location": {
+            "lat": 59.3093329,
+            "lng": 18.2705738
+          },
+          "start_address": "Jakobsberg, Sweden",
+          "start_location": {
+            "lat": 59.423019,
+            "lng": 17.833344
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "17.8 km",
+                "value": 17795
+              },
+              "duration": {
+                "text": "21 mins",
+                "value": 1260
+              },
+              "end_location": {
+                "lat": 59.331139,
+                "lng": 18.0595
+              },
+              "html_instructions": "Train towards Västerhaninge",
+              "polyline": {
+                "points": "{`uiJkazkB@pBz@ClAAxI\\|Fr@f@Fp@HN?f@@B?lAEXCRARCD?`AMBA`A]jAc@zA_Av@m@d@e@f@a@f@m@Za@RWXe@Xe@Tc@Te@Ra@N[Vm@Re@Rm@L_@Nc@J_@HYPo@Nm@Rw@R_ALs@TkAJq@TqAHo@PgAV_BRuALy@PmAPcAPkANaAN_AL}@RuAV}AT{ARqAPgAPgANaAN_APeALy@N{@RiAP_AZ_BF_@XyA@A^gBVqAPw@XsAPu@\\yATy@@IVaAXiA`A}Dt@qCh@sBn@cCr@kCv@}Cn@aCr@oCr@oCH[d@eBd@eBn@cCd@gBh@sBz@eDx@aDz@gDp@}BLe@t@gC\\iAJ]BIRk@f@gBn@wB?An@_Cj@uBLe@^wAl@yBf@oB\\kATw@DObAuCXs@Xw@Re@HQ\\{@p@yAj@mAt@uAXm@R]n@mAt@oAR[V_@j@{@h@y@bAwAdAsA~@oAfA{AfAwAv@iARW`AyA`@k@p@_AdAyA?AhA_BNSb@k@bAqAl@y@l@y@d@q@`@k@jAaBRW`@i@n@{@d@q@b@o@pAgB~@oAJQdAuA|@uA`AiArAqBDGhAyAdAqAt@w@x@w@nB}AhByAf@a@NKTUh@i@f@m@lAcB`A_BrAqCfAeC^}@Xq@~AuDb@w@\\}@z@mB`AuBzA{DxAyDtAsD?ChAeDn@gBX{@hAeDVs@Pg@z@eCtAqDJYjBiFfBeFNa@l@iBVcAhAgDrAqD|DuKzCoITm@p@oBZw@n@aBPk@l@aBt@wBj@yAp@iBl@cB`@kANe@DOf@}Al@sBf@qBh@qBViA^mB^wBTmALo@BOXiBRmATcBHa@Fa@Ls@jAsHJq@RoA^{Br@sEr@eEr@qEn@cELw@Fc@RqAf@_Db@uCV{APiADYN}@BUPcARqA^aCZmB\\{B^_C\\wBj@sDjAsHfA_Hh@oDBML}@Js@DQZqBLy@BIJu@ZoBPoAV}ADa@N_ATeBb@qCf@oDj@wDl@qDz@gFd@{Cp@cEd@_DH_ADWJkAD}@JyBDkAHyBF}AFmAHeAF{@LeALeAF]PiAVmA^qBVgAF]R{@n@yCbBcIR_AtAmGNu@^cBb@sB`@kBBMb@iB\\{A\\}AF[R{@^iBBOP}@BQd@}BJe@R{@H]F]Jm@PRhBmIBMBKBIBMpAkFDM@E?C@A@GDGvGaTJ]dL}^\\kADK@E@GBE@GBMR{@@I@G@A@GBMPgABI?G@C@G@E@KLiABK?G@G@IJgA@S?G@C?C@G@UFgA?K@G?C?I?KDiA?K@G?G?C?I?KJyS?U?G?G?YXwS?Y?K@SR_L?K?G?G?MLgU@Q?K?K?QAaT?}A?O?G?C?C?C?C?C?GAMEw@QkDAO?G?EAA?I?OEiBAK?M?GAKAyB?QAG?C?C@G?KBmC?G?G?C@C?G?KDo@@S@K?KD_A?G@G@G?C?C@G?G@GNiARiBBK?G@A?C@GBKXuAP_ABK@G?A@C@C?A@CBE@Eb@iA`AkCZy@BIBE@A?ABEBE@CHKBGBC@CBCFGT[FGDEFGnBsBnKwFHCBADCHEhDwADCBADCDCnBeAHEBA?ABA@ADEr@i@j@e@DCBC@ABCBCDGtA}AJKFI~BqCFIBC?ABCBEDEnDoFXm@Vo@Xu@Vw@Rq@Nq@Pu@P}@PgAPsAL{@JiAHcADcAFmABeA@{@@}A@gB@uCA}B?yB?uA?C?cCAuE?uD?_D?wDAkC@iDA{G?aD?iCDaCDwBHuBLqBN_BLoAVkB^sBz@yEdAsF^qBVmAl@_Dj@wCXaBZmB^{B`@cCZiBVoAVuA\\qAd@qBf@{Ab@uAj@}An@{Al@qAt@oAn@gAp@aAb@k@r@w@bAaAt@m@p@g@pAw@t@_@tAe@fAW`B_@z@QxA[x@OtAU~AYhB[`Ca@bBWdAU`BUrASr@K@?Cs@"
+              },
+              "start_location": {
+                "lat": 59.423019,
+                "lng": 17.833344
+              },
+              "transit_details": {
+                "arrival_stop": {
+                  "location": {
+                    "lat": 59.331139,
+                    "lng": 18.0595
+                  },
+                  "name": "Stockholm City"
+                },
+                "arrival_time": {
+                  "text": "6:49 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677606540
+                },
+                "departure_stop": {
+                  "location": {
+                    "lat": 59.423019,
+                    "lng": 17.833344
+                  },
+                  "name": "Jakobsberg"
+                },
+                "departure_time": {
+                  "text": "6:28 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677605280
+                },
+                "headsign": "Västerhaninge",
+                "line": {
+                  "agencies": [
+                    {
+                      "name": "Storstockholms Lokaltrafik",
+                      "phone": "011 46 8 600 10 00",
+                      "url": "http://www.sl.se/"
+                    }
+                  ],
+                  "color": "#f166a7",
+                  "short_name": "43",
+                  "text_color": "#ffffff",
+                  "vehicle": {
+                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png",
+                    "name": "Train",
+                    "type": "HEAVY_RAIL"
+                  }
+                },
+                "num_stops": 5
+              },
+              "travel_mode": "TRANSIT"
+            },
+            {
+              "distance": {
+                "text": "0.2 km",
+                "value": 227
+              },
+              "duration": {
+                "text": "4 mins",
+                "value": 228
+              },
+              "end_location": {
+                "lat": 59.33278329999999,
+                "lng": 18.0574343
+              },
+              "html_instructions": "Walk to Centralen",
+              "polyline": {
+                "points": "sbciJ{ffmBoEfKwBT"
+              },
+              "start_location": {
+                "lat": 59.331139,
+                "lng": 18.0595
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "0.2 km",
+                    "value": 160
+                  },
+                  "duration": {
+                    "text": "3 mins",
+                    "value": 161
+                  },
+                  "end_location": {
+                    "lat": 59.332181,
+                    "lng": 18.057539
+                  },
+                  "html_instructions": "Take exit <span class=\"location\">Vasagatan</span>",
+                  "polyline": {
+                    "points": "sbciJ{ffmBoEfK"
+                  },
+                  "start_location": {
+                    "lat": 59.331139,
+                    "lng": 18.0595
+                  },
+                  "travel_mode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "67 m",
+                    "value": 67
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 67
+                  },
+                  "end_location": {
+                    "lat": 59.33278329999999,
+                    "lng": 18.0574343
+                  },
+                  "polyline": {
+                    "points": "ciciJszemBwBT"
+                  },
+                  "start_location": {
+                    "lat": 59.332181,
+                    "lng": 18.057539
+                  },
+                  "travel_mode": "WALKING"
+                }
+              ],
+              "travel_mode": "WALKING"
+            },
+            {
+              "distance": {
+                "text": "3.6 km",
+                "value": 3588
+              },
+              "duration": {
+                "text": "13 mins",
+                "value": 786
+              },
+              "end_location": {
+                "lat": 59.314964,
+                "lng": 18.095871
+              },
+              "html_instructions": "Bus towards Henriksdalsberget",
+              "polyline": {
+                "points": "ylciJsyemB@JHGHI\\YRS\\YHIZYD@D@FABCDC`@YTUBEVWLKJMXWLKFIDEFCBCBAFELMJGVU^_@HKn@k@@ArAgAZYTSl@i@f@e@@ANMv@o@BCDEFEFGDGBG@A@E@CDKDODQBIBK@G@MFc@BWBc@Du@Bi@FqATWFKFKP[dCuEv@wATe@T_@FMR_@DEDGDKB?@A@CBC@AB?^q@LYDKZk@Ve@DIJQJOHVJXL^L`@@@BJDDBDHGLMFW`@e@DERSJKb@ONENCLA`@BTAF?BAJAHC@??A@C?A@KHCHEFCDEPOLMHILOPWPYRYBCJQ@EBCN[Xq@Na@J[JWDMBMFg@Rs@BIDMBM@KBK@M@M@O?Q?WA]KyBAW?U@U?WBYD[?CFWPu@BMBIFUBKBGDGBGFML{@Lg@Lw@BYDYJy@@I?C?ABGJq@BKFSHHp@l@^\\`@^@?|@z@^\\NTNFLTFX@B@JLp@@HBNPWHCDA@A`@O\\KPKXKPIFCFGL[DSHg@@AFe@BY@GDa@@YBQBo@HaB?EBuADwADgB@YJ_CL}C?m@d@uCXgBLaAXiBJw@L_AL_ANiAFc@PaB@EJy@Hm@FSBIBEFIBCHGJE\\OtBu@TKr@W`@OJG\\Mr@Wd@S?iBCoICo@EyD?yD?a@?{@?gB?eAA}A?_@Ak@?y@AcE?]?U@UBe@BYNoC@WFyAFeA@i@@O?E?CDWBSBc@@k@?_@A[NSFMDOPk@J[DUB@"
+              },
+              "start_location": {
+                "lat": 59.33277099999999,
+                "lng": 18.057379
+              },
+              "transit_details": {
+                "arrival_stop": {
+                  "location": {
+                    "lat": 59.314964,
+                    "lng": 18.095871
+                  },
+                  "name": "Londonviadukten"
+                },
+                "arrival_time": {
+                  "text": "7:11 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677607866
+                },
+                "departure_stop": {
+                  "location": {
+                    "lat": 59.33277099999999,
+                    "lng": 18.057379
+                  },
+                  "name": "Centralen"
+                },
+                "departure_time": {
+                  "text": "6:58 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677607080
+                },
+                "headsign": "Henriksdalsberget",
+                "line": {
+                  "agencies": [
+                    {
+                      "name": "Storstockholms Lokaltrafik",
+                      "phone": "011 46 8 600 10 00",
+                      "url": "http://www.sl.se/"
+                    }
+                  ],
+                  "color": "#c03548",
+                  "short_name": "53",
+                  "text_color": "#ffffff",
+                  "vehicle": {
+                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                    "name": "Bus",
+                    "type": "BUS"
+                  }
+                },
+                "num_stops": 7
+              },
+              "travel_mode": "TRANSIT"
+            },
+            {
+              "distance": {
+                "text": "86 m",
+                "value": 86
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 86
+              },
+              "end_location": {
+                "lat": 59.314556,
+                "lng": 18.097162
+              },
+              "html_instructions": "Walk to Londonviadukten",
+              "polyline": {
+                "points": "g}_iJ{immBfAkG"
+              },
+              "start_location": {
+                "lat": 59.3149218,
+                "lng": 18.0958189
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "86 m",
+                    "value": 86
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 86
+                  },
+                  "end_location": {
+                    "lat": 59.314556,
+                    "lng": 18.097162
+                  },
+                  "polyline": {
+                    "points": "g}_iJ{immBfAkG"
+                  },
+                  "start_location": {
+                    "lat": 59.3149218,
+                    "lng": 18.0958189
+                  },
+                  "travel_mode": "WALKING"
+                }
+              ],
+              "travel_mode": "WALKING"
+            },
+            {
+              "distance": {
+                "text": "11.7 km",
+                "value": 11736
+              },
+              "duration": {
+                "text": "19 mins",
+                "value": 1152
+              },
+              "end_location": {
+                "lat": 59.307846,
+                "lng": 18.266432
+              },
+              "html_instructions": "Bus towards Boo backe",
+              "polyline": {
+                "points": "_{_iJgrmmBIIN_Ad@iCTkAXeBD]BSBUFy@@m@@O?[?]?mA?i@AaBAoA@qBBqA@k@Dq@?C@K?I@OB[BWDi@F_@TqARqAR{@Ji@Jc@DKPg@b@mAXs@JYLWP_@PWNUPOHGHGLKNKLENELEXCT?L?PBLDFBFBFBHHHDJJNRLNNTHRFJ@@DHFLLVVl@Vh@R`@LRPTDFJJLLJFJHJDLDRBF@F@J?LAFAJCJCNGJEHEFCHGNOJOVa@FOFODKHWFUBMFSF[F]BMLs@DYD_@Hq@Dg@Fu@Do@Dg@Bc@Dq@@I@]Bc@@k@@A@i@@i@@cA?O@i@?o@Am@?E?e@A_@?MAw@AYAk@EeAAw@Ac@EcBGuBQyHIkCEiBAc@Cs@AQGyBEcA?AGuAAM?MIsAM{BAGGcA?AIqAGmACm@Cg@Cm@EmACqAAq@?mA?k@?g@@sABk@BoA@k@Bg@D}A@MBqA@k@Bw@?[@cB?]?g@Ac@?YA_@A]CeAA[A[Cg@Eg@Cg@CIAGGYGq@CWGi@K{@Gk@AKQeAUqAGYKe@G[I_@Mm@COWsAScAGk@Ks@Km@Ec@G]OeAE[O}A?E?AEg@G{@MaBEeAEi@ASC_ACi@A[AYCaA?CCeACmBEyBAUEoCCeAAMAw@EkBGqDAo@GiCAg@I}BEcAEkAGsAG}@IsAKkACc@AMEc@MsAI_AE[C_@QaBMiACUMy@MgAGi@MgAKaAAIKgAEe@McBAWIoACe@Ew@?KC{@?s@CgAAu@?WAg@?g@?}@?y@@a@?_@@i@FSB[Bg@?MNuC?A@MBWDk@Hm@NcAJs@BQDQHg@Jg@P}@Jk@RcAHg@Hc@DUDe@F]Fk@DY?A?A?A@IJu@BGBCDCB?@?@@DBH^@DPj@Lh@FT?BAB?@?B?@?BAB?B?B?B@@?B?B?@?@@@?@?B@@?B@@@@?@@@@@?@@@@?@@@@@?@?@@@A@?@?@A@?@A@??A@A@A?A@A@C?A@A?C@A?C?A@CFQFSDM@G@C?EBSX}@T_ARm@DODSBQ?W?M?YAUCY?A?A?A?A?C?A?C?A?C?AAC?A?AAC?A?AAAAC?AA?AAA??AA?A?A??@A?A??@A??@A@A@?@KEKA}@FKBQBI@MAIGOMEKEIEICIIk@Eq@?KEy@Eo@KgBAQGqACe@AIAYIeBCq@AS?GC[EeAEmACg@AMCS@A?A@??A?A@A?A?A?A@A?A?A?C?A?A?C?A?C?AAA?C?A?AAA?CAA?AAA?AAAAAA??AGo@M_BEWi@eFGq@Ek@G[K{@AE@OAKAIAGYqB?AGw@Eo@AGCg@GwBAcACYBmA@iADg@Bg@H_AFo@@I@ADa@Jq@Jq@DY@OBMVy@B?BABADCBC@G@E@I@E@KAGAKAICECIIm@CICQG[]yA?ACMACIa@AACOAEIWk@sC]}ASiAG]Ik@C]a@{BQaAI]Mg@ACAESeAY_BOu@Ke@GWW{@_@eAe@kAUo@EMEMCKCKEMEOCMACCKESI]CKKe@AIAGCQCQEUO}@QaBGi@?CE_@SmB?EQiBM_BGo@?AACS[U_EMmCOqCGqAE_AASCi@EgAEq@Ag@E}@Ci@Ci@C_ACi@Ck@Ag@Ck@Ag@Ci@Ai@Ci@EsAAg@Ai@Ci@Ak@Ag@Ci@Ai@E}BG}BAi@CoAAcAAYAmAA_@AgAA_AAi@Ai@?i@Ag@?k@?sA?yA?U@{@@g@?g@BkA@u@@g@Be@@o@Bi@Bi@Bi@Bi@Bi@Bg@Di@Di@Dk@@MP}BBSB_@JaA@MHu@BQBW@ADa@J}@BKT}A?AHk@BSDYBQL{@He@F_@NiAHg@Hg@He@Fa@Fe@Jk@Fe@Ly@Lw@Fc@Fe@Fe@Fg@Dg@De@Dg@Di@Dg@Bg@Bi@Bi@@g@@i@BsA@o@?c@?i@?u@?YAwAAo@?o@AoAAi@?g@Ag@?i@As@?W?KAgAAaB?e@CgDAqBEqE?k@AgA?e@@a@@kALU?AFk@BG?GF[Ha@He@DQ@ELw@@CJg@^mBF[BGBSHa@@EF[BQ@SBQ?K?IA]ZGNAHA^@ZDXH`@NRNXTjBlBVV\\\\PRTLVJVJRD^FH?RANC`@IF?h@Sd@[p@c@NKTQ\\W?ANKDEjBqAbBmAROvAeArA{@JMTUHKNS@CFKVa@FKFKJUFMDK?CTu@?APu@NeABiAHQ@G@G@M@a@@OB_A@k@@]@aA?CBuC?[@w@By@@YEg@j@_FVy@HYHc@DMLe@@ELi@Rq@ZqA`@{ALe@J_@FSH[N}@Lw@L}AFkAB_A?s@?u@Cw@EgAWgCOwAGa@Ek@Eo@@?@A@??A@A@A?A@A?A?A@A?A?A@A?A?A?A?A?A?A?A?A?A?A?A?A?A?A?AAA?A?AAA?A?AAA?AA??AA??AAAA??AA?A?AA?@A?Co@AS?SAw@?cA?k@DsEDaD?o@B}ADmBD_DA_@EyAEsAKoBe@gHUsDGw@MeAk@oEUqAUsA?Au@gEMi@Kg@ISGSGOCGEKBM@Q@WCYCYE_@c@kDk@eEa@{CKs@WsBSwBK}@M_BGy@WgDYeEOmBEu@Ea@EB"
+              },
+              "start_location": {
+                "lat": 59.314556,
+                "lng": 18.097162
+              },
+              "transit_details": {
+                "arrival_stop": {
+                  "location": {
+                    "lat": 59.307846,
+                    "lng": 18.266432
+                  },
+                  "name": "Sjöstugan"
+                },
+                "arrival_time": {
+                  "text": "7:33 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677609183
+                },
+                "departure_stop": {
+                  "location": {
+                    "lat": 59.314556,
+                    "lng": 18.097162
+                  },
+                  "name": "Londonviadukten"
+                },
+                "departure_time": {
+                  "text": "7:13 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677608031
+                },
+                "headsign": "Boo backe",
+                "line": {
+                  "agencies": [
+                    {
+                      "name": "Storstockholms Lokaltrafik",
+                      "phone": "011 46 8 600 10 00",
+                      "url": "http://www.sl.se/"
+                    }
+                  ],
+                  "color": "#c03548",
+                  "short_name": "442",
+                  "text_color": "#ffffff",
+                  "vehicle": {
+                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                    "name": "Bus",
+                    "type": "BUS"
+                  }
+                },
+                "num_stops": 11
+              },
+              "travel_mode": "TRANSIT"
+            },
+            {
+              "distance": {
+                "text": "0.3 km",
+                "value": 329
+              },
+              "duration": {
+                "text": "4 mins",
+                "value": 240
+              },
+              "end_location": {
+                "lat": 59.3093329,
+                "lng": 18.2705738
+              },
+              "html_instructions": "Walk to Nacka Municipality, Sweden",
+              "polyline": {
+                "points": "{p~hJitnnBOwBG@MDGCECKMGIU[o@}@KMSUKIa@YAASKKGCOCc@Gw@I{@?CGw@Ku@AUC]Ag@?G?}@Ds@"
+              },
+              "start_location": {
+                "lat": 59.30781719999999,
+                "lng": 18.2664466
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "35 m",
+                    "value": 35
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 24
+                  },
+                  "end_location": {
+                    "lat": 59.3078963,
+                    "lng": 18.2670478
+                  },
+                  "html_instructions": "Head <b>east</b> on <b>Sockenvägen</b> toward <b>Ekallén</b>",
+                  "polyline": {
+                    "points": "{p~hJitnnBOwB"
+                  },
+                  "start_location": {
+                    "lat": 59.30781719999999,
+                    "lng": 18.2664466
+                  },
+                  "travel_mode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "0.1 km",
+                    "value": 148
+                  },
+                  "duration": {
+                    "text": "2 mins",
+                    "value": 111
+                  },
+                  "end_location": {
+                    "lat": 59.3090877,
+                    "lng": 18.2680856
+                  },
+                  "html_instructions": "Turn <b>left</b> onto <b>Ekallén</b>",
+                  "maneuver": "turn-left",
+                  "polyline": {
+                    "points": "kq~hJaxnnBG@MDGCECKMGIU[o@}@KMSUKIa@YAASKKG"
+                  },
+                  "start_location": {
+                    "lat": 59.3078963,
+                    "lng": 18.2670478
+                  },
+                  "travel_mode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "0.1 km",
+                    "value": 146
+                  },
+                  "duration": {
+                    "text": "2 mins",
+                    "value": 105
+                  },
+                  "end_location": {
+                    "lat": 59.3093329,
+                    "lng": 18.2705738
+                  },
+                  "html_instructions": "Turn <b>right</b> to stay on <b>Ekallén</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                  "maneuver": "turn-right",
+                  "polyline": {
+                    "points": "yx~hJq~nnBCOCc@Gw@I{@?CGw@Ku@AUC]Ag@?G?}@Ds@"
+                  },
+                  "start_location": {
+                    "lat": 59.3090877,
+                    "lng": 18.2680856
+                  },
+                  "travel_mode": "WALKING"
+                }
+              ],
+              "travel_mode": "WALKING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        }
+      ],
+      "overview_polyline": {
+        "points": "{`uiJkazkB@pBz@CfLZfJdArCGnBSdA_@fDcBlDcDbBeCnAgCdCoHdAyE`A_GpCwQvCoRpCgPxCwNlR_u@hKs`@|EkP|FkTxBqGtAkDlDkHlCwEpDmFtGwIpJcNfJeMlIiLxGgJjEkFzHqGvByBnCcEzCwG|D}IvF}MxFwOzIwVpG{Q`BkFpGgQ~FePdDgJlDsJjBgGhC{KfAeGzDyVtGwa@lKiq@vJao@nIyi@`AcI`@}J`@mHt@sFrG_[jLyi@p@}CJm@PRlB{I|AoGHYvVkx@d@sBfAyIVmGd@gk@TcOLso@Aq@[}GMkHVqJv@yGt@uDpCoH\\k@hDuDbLaG|DcBnC{AxBgBzF}G|D_GbBkEfAwE|@aHZ{GFwKCa_@AiWJePt@wKxDmTfFcYlBsKnCuJzAyDbBaD`BiCvAcBxBoBbC_BjCeAhDw@dHsAnLoBnHkAAs@oEfKwBTBTRQxAqA`@WL?`Aw@jBkBhB{AzJwI`@iA`@aEJ{B\\c@vEuI|AmC`AcBdAmBJOHVXx@Xt@LATe@fAkApA[bA?VGLUh@_@lBiC|A{Dr@gDD}@OgED}A^mBh@_B`AwGRgAFSHHpAjA`CxB^\\Tn@RjABNPWNErAi@z@a@^yARiBb@yMZeJfBiL~AgMXqA`@[|IgDd@S?iBG_KEqMEsRj@sLR_EA{@Va@h@mBJJfAkGIIt@iEn@qDTaCBwBCiHLaHPgCdA_Gn@aCvAsDdA}A|Ay@nA?d@Pn@n@n@dAnB~Dp@v@p@\\n@Fl@Kl@W|@iAz@wC^yB\\oD^eHFqHM}GsAsf@s@kMWoMVwLH_LUeHq@cG{DsU{@iIg@eKeAch@w@sNkAuLqAmL]qFIsDE_K@iAJo@RmEz@{G`B_JZoCTkALAx@xCCZLh@LHLE\\gApA_FNmAEwA?GAWKSK@O@gBLW?YUUi@UcDm@kLYsI?g@g@{D_C{UIcHTyEp@kFZgAFANQFa@Ic@_AyEgBgIuBuLmB_JuBcGo@qCa@iCsAmN]qA{@qPc@gKs@}Uk@c]FgMX{Ip@qJj@sFrCyRnAyIl@aILcKI{KIyNIwL@gANaBJu@ZkBnAmG`@{CAg@j@I~ANt@^dCbC|AvAbBd@nAOhCsAbAw@pLqI`B_CXs@v@sDPkBH_CNsLCaAj@_FVy@R}@Rs@b@aBvAsFn@eDX}GCmB]oEc@uEFEBIB[EYMGI_GNcOJmGGyBmA_TwA_LyAgIe@_BCs@KkB}BaQeAiKuAmRWuBU@o@w@{AkBcAo@o@oH?_E"
+      },
+      "summary": "",
+      "warnings": [
+        "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+      ],
+      "waypoint_order": []
+    },
+    {
+      "bounds": {
+        "northeast": {
+          "lat": 59.423019,
+          "lng": 18.2705738
+        },
+        "southwest": {
+          "lat": 59.30454269999999,
+          "lng": 17.8322983
+        }
+      },
+      "copyrights": "Map data ©2023 Google",
+      "legs": [
+        {
+          "arrival_time": {
+            "text": "7:37 PM",
+            "time_zone": "Europe/Stockholm",
+            "value": 1677609425
+          },
+          "departure_time": {
+            "text": "6:28 PM",
+            "time_zone": "Europe/Stockholm",
+            "value": 1677605280
+          },
+          "distance": {
+            "text": "33.4 km",
+            "value": 33419
+          },
+          "duration": {
+            "text": "1 hour 9 mins",
+            "value": 4145
+          },
+          "end_address": "Nacka Municipality, Sweden",
+          "end_location": {
+            "lat": 59.3093329,
+            "lng": 18.2705738
+          },
+          "start_address": "Jakobsberg, Sweden",
+          "start_location": {
+            "lat": 59.423019,
+            "lng": 17.833344
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "16.1 km",
+                "value": 16109
+              },
+              "duration": {
+                "text": "18 mins",
+                "value": 1080
+              },
+              "end_location": {
+                "lat": 59.34324299999999,
+                "lng": 18.045759
+              },
+              "html_instructions": "Train towards Västerhaninge",
+              "polyline": {
+                "points": "{`uiJkazkB@pBz@ClAAxI\\|Fr@f@Fp@HN?f@@B?lAEXCRARCD?`AMBA`A]jAc@zA_Av@m@d@e@f@a@f@m@Za@RWXe@Xe@Tc@Te@Ra@N[Vm@Re@Rm@L_@Nc@J_@HYPo@Nm@Rw@R_ALs@TkAJq@TqAHo@PgAV_BRuALy@PmAPcAPkANaAN_AL}@RuAV}AT{ARqAPgAPgANaAN_APeALy@N{@RiAP_AZ_BF_@XyA@A^gBVqAPw@XsAPu@\\yATy@@IVaAXiA`A}Dt@qCh@sBn@cCr@kCv@}Cn@aCr@oCr@oCH[d@eBd@eBn@cCd@gBh@sBz@eDx@aDz@gDp@}BLe@t@gC\\iAJ]BIRk@f@gBn@wB?An@_Cj@uBLe@^wAl@yBf@oB\\kATw@DObAuCXs@Xw@Re@HQ\\{@p@yAj@mAt@uAXm@R]n@mAt@oAR[V_@j@{@h@y@bAwAdAsA~@oAfA{AfAwAv@iARW`AyA`@k@p@_AdAyA?AhA_BNSb@k@bAqAl@y@l@y@d@q@`@k@jAaBRW`@i@n@{@d@q@b@o@pAgB~@oAJQdAuA|@uA`AiArAqBDGhAyAdAqAt@w@x@w@nB}AhByAf@a@NKTUh@i@f@m@lAcB`A_BrAqCfAeC^}@Xq@~AuDb@w@\\}@z@mB`AuBzA{DxAyDtAsD?ChAeDn@gBX{@hAeDVs@Pg@z@eCtAqDJYjBiFfBeFNa@l@iBVcAhAgDrAqD|DuKzCoITm@p@oBZw@n@aBPk@l@aBt@wBj@yAp@iBl@cB`@kANe@DOf@}Al@sBf@qBh@qBViA^mB^wBTmALo@BOXiBRmATcBHa@Fa@Ls@jAsHJq@RoA^{Br@sEr@eEr@qEn@cELw@Fc@RqAf@_Db@uCV{APiADYN}@BUPcARqA^aCZmB\\{B^_C\\wBj@sDjAsHfA_Hh@oDBML}@Js@DQZqBLy@BIJu@ZoBPoAV}ADa@N_ATeBb@qCf@oDj@wDl@qDz@gFd@{Cp@cEd@_DH_ADWJkAD}@JyBDkAHyBF}AFmAHeAF{@LeALeAF]PiAVmA^qBVgAF]R{@n@yCbBcIR_AtAmGNu@^cBb@sB`@kBBMb@iB\\{A\\}AF[R{@^iBBOP}@BQd@}BJe@R{@H]F]Jm@PRhBmIBMBKBIBMpAkFDM@E?C@A@GDGvGaTJ]dL}^\\kADK@E@GBE@GBMR{@@I@G@A@GBMPgABI?G@C@G@E@KLiABK?G@G@IJgA@S?G@C?C@G@UFgA?K@G?C?I?KDiA?K@G?G?C?I?KJyS?U?G?G?YXwS?Y?K@SR_L?K?G?G?MLgU@Q?K?K?QAaT?}A?O?G?C?C?C?C?C?GAMEw@QkDAO?G?EAA?I?OEiBAK?M?GAKAyB?QAG?C?C@G?KBmC?G?G?C@C?G?KDo@@S@K?KD_A?G@G@G?C?C@G?G@GNiARiBBK?G@A?C@GBKXuAP_ABK@G?A@C@C?A@CBE@Eb@iA`AkCZy@BIBE@A?ABEBE@CHKBGBC@CBCFGT[FGDEFGnBsBnKwFHCBADCHEhDwADCBADCDCnBeAHEBA?ABA@ADEr@i@j@e@DCBC@ABCBCDGtA}AJKFI~BqCFIBC?ABCBEDEnDoFXm@Vo@Xu@Vw@Rq@Nq@Pu@P}@PgAPsAL{@JiAHcADcAFmABeA@{@@}A@gB@uCA}B?yB?uA?C?cCAuE?uD?_D?wDAkC@iDA{G?aD?iCDaCDwBHuBLqBN_BLoAVkB^sBz@yEdAsF^qBBB"
+              },
+              "start_location": {
+                "lat": 59.423019,
+                "lng": 17.833344
+              },
+              "transit_details": {
+                "arrival_stop": {
+                  "location": {
+                    "lat": 59.34324299999999,
+                    "lng": 18.045759
+                  },
+                  "name": "Stockholm Odenplan"
+                },
+                "arrival_time": {
+                  "text": "6:46 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677606360
+                },
+                "departure_stop": {
+                  "location": {
+                    "lat": 59.423019,
+                    "lng": 17.833344
+                  },
+                  "name": "Jakobsberg"
+                },
+                "departure_time": {
+                  "text": "6:28 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677605280
+                },
+                "headsign": "Västerhaninge",
+                "line": {
+                  "agencies": [
+                    {
+                      "name": "Storstockholms Lokaltrafik",
+                      "phone": "011 46 8 600 10 00",
+                      "url": "http://www.sl.se/"
+                    }
+                  ],
+                  "color": "#f166a7",
+                  "short_name": "43",
+                  "text_color": "#ffffff",
+                  "vehicle": {
+                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png",
+                    "name": "Train",
+                    "type": "HEAVY_RAIL"
+                  }
+                },
+                "num_stops": 4
+              },
+              "travel_mode": "TRANSIT"
+            },
+            {
+              "distance": {
+                "text": "0.2 km",
+                "value": 199
+              },
+              "duration": {
+                "text": "3 mins",
+                "value": 200
+              },
+              "end_location": {
+                "lat": 59.34273339999999,
+                "lng": 18.0485781
+              },
+              "html_instructions": "Walk to Odenplan",
+              "polyline": {
+                "points": "gneiJ_qcmBp@\\r@qQ"
+              },
+              "start_location": {
+                "lat": 59.34324299999999,
+                "lng": 18.045759
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "29 m",
+                    "value": 29
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 30
+                  },
+                  "end_location": {
+                    "lat": 59.342987,
+                    "lng": 18.045609
+                  },
+                  "html_instructions": "Take exit <span class=\"location\">Västmannagatan/Karlbergsvägen</span>",
+                  "polyline": {
+                    "points": "gneiJ_qcmBp@\\"
+                  },
+                  "start_location": {
+                    "lat": 59.34324299999999,
+                    "lng": 18.045759
+                  },
+                  "travel_mode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "0.2 km",
+                    "value": 170
+                  },
+                  "duration": {
+                    "text": "3 mins",
+                    "value": 170
+                  },
+                  "end_location": {
+                    "lat": 59.34273339999999,
+                    "lng": 18.0485781
+                  },
+                  "polyline": {
+                    "points": "uleiJapcmBr@qQ"
+                  },
+                  "start_location": {
+                    "lat": 59.342987,
+                    "lng": 18.045609
+                  },
+                  "travel_mode": "WALKING"
+                }
+              ],
+              "travel_mode": "WALKING"
+            },
+            {
+              "distance": {
+                "text": "3.5 km",
+                "value": 3453
+              },
+              "duration": {
+                "text": "8 mins",
+                "value": 465
+              },
+              "end_location": {
+                "lat": 59.3194074,
+                "lng": 18.0722943
+              },
+              "html_instructions": "Subway towards Hagsätra",
+              "polyline": {
+                "points": "ikeiJmcdmBC@AmDOuZDiDT_Bd@oCt@sBnIiM^_@VSjF_FbGsF`FuEjBeBrAwA^a@pAwAB?zCHxFN`@@@?b@Db@D^DBB`Av@?D?BDLFLTt@Pf@VhA\\zA^pAj@nBX`AJ\\FJDFXR`@VHDVPbAn@`@Tj@^R?D?HAVObAi@b@Sz@e@FC`@YRQJI^]BAVm@r@aBp@_BXq@Xo@lAsCr@aBXo@r@_BpCmE^c@Z_@~@}@d@[^[VQj@[`@Y`@W^YbAs@\\WBAh@_@^i@Xe@@AZi@@AVi@FMz@aBLWJUXi@Tg@p@qADILWNWZi@BC\\o@BE\\k@LS\\e@\\e@^e@|AaB^a@JKBP"
+              },
+              "start_location": {
+                "lat": 59.342766,
+                "lng": 18.048706
+              },
+              "transit_details": {
+                "arrival_stop": {
+                  "location": {
+                    "lat": 59.3194074,
+                    "lng": 18.0722943
+                  },
+                  "name": "Slussen"
+                },
+                "arrival_time": {
+                  "text": "6:58 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677607110
+                },
+                "departure_stop": {
+                  "location": {
+                    "lat": 59.342766,
+                    "lng": 18.048706
+                  },
+                  "name": "Odenplan"
+                },
+                "departure_time": {
+                  "text": "6:50 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677606645
+                },
+                "headsign": "Hagsätra",
+                "line": {
+                  "agencies": [
+                    {
+                      "name": "Storstockholms Lokaltrafik",
+                      "phone": "011 46 8 600 10 00",
+                      "url": "http://www.sl.se/"
+                    }
+                  ],
+                  "color": "#04a64a",
+                  "name": "Gröna linjen",
+                  "short_name": "19",
+                  "vehicle": {
+                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                    "local_icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/se-stockholm-metro.png",
+                    "name": "Subway",
+                    "type": "SUBWAY"
+                  }
+                },
+                "num_stops": 5
+              },
+              "travel_mode": "TRANSIT"
+            },
+            {
+              "distance": {
+                "text": "0.2 km",
+                "value": 187
+              },
+              "duration": {
+                "text": "3 mins",
+                "value": 187
+              },
+              "end_location": {
+                "lat": 59.3194518,
+                "lng": 18.0755282
+              },
+              "html_instructions": "Walk to Slussen",
+              "polyline": {
+                "points": "az`iJmvhmBNsS"
+              },
+              "start_location": {
+                "lat": 59.319533,
+                "lng": 18.0722301
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "0.2 km",
+                    "value": 187
+                  },
+                  "duration": {
+                    "text": "3 mins",
+                    "value": 187
+                  },
+                  "end_location": {
+                    "lat": 59.3194518,
+                    "lng": 18.0755282
+                  },
+                  "polyline": {
+                    "points": "az`iJmvhmBNsS"
+                  },
+                  "start_location": {
+                    "lat": 59.319533,
+                    "lng": 18.0722301
+                  },
+                  "travel_mode": "WALKING"
+                }
+              ],
+              "travel_mode": "WALKING"
+            },
+            {
+              "distance": {
+                "text": "13.1 km",
+                "value": 13142
+              },
+              "duration": {
+                "text": "22 mins",
+                "value": 1323
+              },
+              "end_location": {
+                "lat": 59.307846,
+                "lng": 18.266432
+              },
+              "html_instructions": "Bus towards Boo backe",
+              "polyline": {
+                "points": "{y`iJgkimBAABYLgALk@@GBGHk@Ju@Bk@@W?W?OEw@ZuB|AeKD]VqBd@aEJ]BUHq@Dg@NsAJ}@N}@JoABc@@U?_@NaDH}BJeCNiD@[By@JeCXyGJiC?[Fq@HeAFq@Hs@f@mEb@qDX_AJ[BIDKJSDGNSPK~@Y`A_@RGVYNSFMDOPk@J[Ji@H]H]Ls@PgAN}@N_Ad@iCTkAXeBD]BSBUFy@@m@@O?[?]?mA?i@AaBAoA@qBBqA@k@Dq@?C@K?I@OB[BWDi@F_@TqARqAR{@Ji@Jc@DKPg@b@mAXs@JYLWP_@PWNUPOHGHGLKNKLENELEXCT?L?PBLDFBFBFBHHHDJJNRLNNTHRFJ@@DHFLLVVl@Vh@R`@LRPTDFJJLLJFJHJDLDRBF@F@J?LAFAJCJCNGJEHEFCHGNOJOVa@FOFODKHWFUBMFSF[F]BMLs@DYD_@Hq@Dg@Fu@Do@Dg@Bc@Dq@@I@]Bc@@k@@A@i@@i@@cA?O@i@?o@Am@?E?e@A_@?MAw@AYAk@EeAAw@Ac@EcBGuBQyHIkCEiBAc@Cs@AQGyBEcA?AGuAAM?MIsAM{BAGGcA?AIqAGmACm@Cg@Cm@EmACqAAq@?mA?k@?g@@sABk@BoA@k@Bg@D}A@MBqA@k@Bw@?[@cB?]?g@Ac@?YA_@A]CeAA[A[Cg@Eg@Cg@CIAGGYGq@CWGi@K{@Gk@AKQeAUqAGYKe@G[I_@Mm@COWsAScAGk@Ks@Km@Ec@G]OeAE[O}A?E?AEg@G{@MaBEeAEi@ASC_ACi@A[AYCaA?CCeACmBEyBAUEoCCeAAMAw@EkBGqDAo@GiCAg@I}BEcAEkAGsAG}@IsAKkACc@AMEc@MsAI_AE[C_@QaBMiACUMy@MgAGi@MgAKaAAIKgAEe@McBAWIoACe@Ew@?KC{@?s@CgAAu@?WAg@?g@?}@?y@@a@?_@@i@FSB[Bg@?MNuC?A@MBWDk@Hm@NcAJs@BQDQHg@Jg@P}@Jk@RcAHg@Hc@DUDe@F]Fk@DY?A?A?A@IJu@BGBCDCB?@?@@DBH^@DPj@Lh@FT?BAB?@?B?@?BAB?B?B?B@@?B?B?@?@@@?@?B@@?B@@@@?@@@@@?@@@@?@@@@@?@?@@@A@?@?@A@?@A@??A@A@A?A@A@C?A@A?C@A?C?A@CFQFSDM@G@C?EBSX}@T_ARm@DODSBQ?W?M?YAUCY?A?A?A?A?C?A?C?A?C?AAC?A?AAC?A?AAAAC?AA?AAA??AA?A?A??@A?A??@A??@A@A@?@KEKA}@FKBQBI@MAIGOMEKEIEICIIk@Eq@?KEy@Eo@KgBAQGqACe@AIAYIeBCq@AS?GC[EeAEmACg@AMCS@A?A@??A?A@A?A?A?A@A?A?A?C?A?A?C?A?C?AAA?C?A?AAA?CAA?AAA?AAAAAA??AGo@M_BEWi@eFGq@Ek@G[K{@AE@OAKAIAGYqB?AGw@Eo@AGCg@GwBAcACYBmA@iADg@Bg@H_AFo@@I@ADa@Jq@Jq@DY@OBMVy@B?BABADCBC@G@E@I@E@KAGAKAICECIIm@CICQG[]yA?ACMACIa@AACOAEIWk@sC]}ASiAG]Ik@C]a@{BQaAI]Mg@ACAESeAY_BOu@Ke@GWW{@_@eAe@kAUo@EMEMCKCKEMEOCMACCKESI]CKKe@AIAGCQCQEUO}@QaBGi@?CE_@SmB?EQiBM_BGo@?AACS[U_EMmCOqCGqAE_AASCi@EgAEq@Ag@E}@Ci@Ci@C_ACi@Ck@Ag@Ck@Ag@Ci@Ai@Ci@EsAAg@Ai@Ci@Ak@Ag@Ci@Ai@E}BG}BAi@CoAAcAAYAmAA_@AgAA_AAi@Ai@?i@Ag@?k@?sA?yA?U@{@@g@?g@BkA@u@@g@Be@@o@Bi@Bi@Bi@Bi@Bi@Bg@Di@Di@Dk@@MP}BBSB_@JaA@MHu@BQBW@ADa@J}@BKT}A?AHk@BSDYBQL{@He@F_@NiAHg@Hg@He@Fa@Fe@Jk@Fe@Ly@Lw@Fc@Fe@Fe@Fg@Dg@De@Dg@Di@Dg@Bg@Bi@Bi@@g@@i@BsA@o@?c@?i@?u@?YAwAAo@?o@AoAAi@?g@Ag@?i@As@?W?KAgAAaB?e@CgDAqBEqE?k@AgA?e@@a@@kALU?AFk@BG?GF[Ha@He@DQ@ELw@@CJg@^mBF[BGBSHa@@EF[BQ@SBQ?K?IA]ZGNAHA^@ZDXH`@NRNXTjBlBVV\\\\PRTLVJVJRD^FH?RANC`@IF?h@Sd@[p@c@NKTQ\\W?ANKDEjBqAbBmAROvAeArA{@JMTUHKNS@CFKVa@FKFKJUFMDK?CTu@?APu@NeABiAHQ@G@G@M@a@@OB_A@k@@]@aA?CBuC?[@w@By@@YEg@j@_FVy@HYHc@DMLe@@ELi@Rq@ZqA`@{ALe@J_@FSH[N}@Lw@L}AFkAB_A?s@?u@Cw@EgAWgCOwAGa@Ek@Eo@@?@A@??A@A@A?A@A?A?A@A?A?A@A?A?A?A?A?A?A?A?A?A?A?A?A?A?A?AAA?A?AAA?A?AAA?AA??AA??AAAA??AA?A?AA?@A?Co@AS?SAw@?cA?k@DsEDaD?o@B}ADmBD_DA_@EyAEsAKoBe@gHUsDGw@MeAk@oEUqAUsA?Au@gEMi@Kg@ISGSGOCGEKBM@Q@WCYCYE_@c@kDk@eEa@{CKs@WsBSwBK}@M_BGy@WgDYeEOmBEu@Ea@EB"
+              },
+              "start_location": {
+                "lat": 59.3195,
+                "lng": 18.075562
+              },
+              "transit_details": {
+                "arrival_stop": {
+                  "location": {
+                    "lat": 59.307846,
+                    "lng": 18.266432
+                  },
+                  "name": "Sjöstugan"
+                },
+                "arrival_time": {
+                  "text": "7:33 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677609183
+                },
+                "departure_stop": {
+                  "location": {
+                    "lat": 59.3195,
+                    "lng": 18.075562
+                  },
+                  "name": "Slussen"
+                },
+                "departure_time": {
+                  "text": "7:11 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677607860
+                },
+                "headsign": "Boo backe",
+                "line": {
+                  "agencies": [
+                    {
+                      "name": "Storstockholms Lokaltrafik",
+                      "phone": "011 46 8 600 10 00",
+                      "url": "http://www.sl.se/"
+                    }
+                  ],
+                  "color": "#c03548",
+                  "short_name": "442",
+                  "text_color": "#ffffff",
+                  "vehicle": {
+                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                    "name": "Bus",
+                    "type": "BUS"
+                  }
+                },
+                "num_stops": 12
+              },
+              "travel_mode": "TRANSIT"
+            },
+            {
+              "distance": {
+                "text": "0.3 km",
+                "value": 329
+              },
+              "duration": {
+                "text": "4 mins",
+                "value": 240
+              },
+              "end_location": {
+                "lat": 59.3093329,
+                "lng": 18.2705738
+              },
+              "html_instructions": "Walk to Nacka Municipality, Sweden",
+              "polyline": {
+                "points": "{p~hJitnnBOwBG@MDGCECKMGIU[o@}@KMSUKIa@YAASKKGCOCc@Gw@I{@?CGw@Ku@AUC]Ag@?G?}@Ds@"
+              },
+              "start_location": {
+                "lat": 59.30781719999999,
+                "lng": 18.2664466
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "35 m",
+                    "value": 35
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 24
+                  },
+                  "end_location": {
+                    "lat": 59.3078963,
+                    "lng": 18.2670478
+                  },
+                  "html_instructions": "Head <b>east</b> on <b>Sockenvägen</b> toward <b>Ekallén</b>",
+                  "polyline": {
+                    "points": "{p~hJitnnBOwB"
+                  },
+                  "start_location": {
+                    "lat": 59.30781719999999,
+                    "lng": 18.2664466
+                  },
+                  "travel_mode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "0.1 km",
+                    "value": 148
+                  },
+                  "duration": {
+                    "text": "2 mins",
+                    "value": 111
+                  },
+                  "end_location": {
+                    "lat": 59.3090877,
+                    "lng": 18.2680856
+                  },
+                  "html_instructions": "Turn <b>left</b> onto <b>Ekallén</b>",
+                  "maneuver": "turn-left",
+                  "polyline": {
+                    "points": "kq~hJaxnnBG@MDGCECKMGIU[o@}@KMSUKIa@YAASKKG"
+                  },
+                  "start_location": {
+                    "lat": 59.3078963,
+                    "lng": 18.2670478
+                  },
+                  "travel_mode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "0.1 km",
+                    "value": 146
+                  },
+                  "duration": {
+                    "text": "2 mins",
+                    "value": 105
+                  },
+                  "end_location": {
+                    "lat": 59.3093329,
+                    "lng": 18.2705738
+                  },
+                  "html_instructions": "Turn <b>right</b> to stay on <b>Ekallén</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                  "maneuver": "turn-right",
+                  "polyline": {
+                    "points": "yx~hJq~nnBCOCc@Gw@I{@?CGw@Ku@AUC]Ag@?G?}@Ds@"
+                  },
+                  "start_location": {
+                    "lat": 59.3090877,
+                    "lng": 18.2680856
+                  },
+                  "travel_mode": "WALKING"
+                }
+              ],
+              "travel_mode": "WALKING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        }
+      ],
+      "overview_polyline": {
+        "points": "{`uiJkazkB@pBz@ClAAxI\\dHz@`AHrCGnBSdA_@jAc@zA_A|AsAnAoAbBeCnAgClAaDv@mCdAyE`A_GpCwQvCoRpCgPxCwNlR_u@hKs`@|EkP|FkTxBqGtAkDlDkHlCwEpDmFtGwIpJcNfJeMlIiLxGgJjEkFzHqGvByBnCcEzCwG|D}IvF}MxFwOzIwVpG{Q`BkFpGgQ~FePdDgJlDsJjBgGhC{KfAeGzDyVtGwa@lKiq@vJao@nIyi@`AcI`@}J`@mHt@sFrG_[jLyi@p@}CJm@PRlB{I|AoGHYvVkx@d@sB`@aCd@wEVmGd@gk@TcONqVAaXAq@[}GMkHVqJv@yGt@uDpCoH\\k@hDuDbLaG|DcBnC{AxBgBzF}G|D_GbBkEfAwE|@aHZ{GFwKCa_@AiWJePVgF\\oDv@_F`CmM^qBt@`@j@kREkDI_`@z@oFt@sBnIiMv@s@|XoWhEqExLZjBT`A|@DPfAtDbC~IRh@^ZfC~AlAt@X?hCoAxBuAj@g@Zo@xCcHnEeKpDqFzA}AhCeBfD_C`@YhAiAx@sAvEkJbCiEhBeC|BcCJKBPWJNsSKG`@uC\\uCCwBvEs\\p@wFPiD`Bea@\\}G|AeNn@qBP[`@_@`Cy@j@a@n@}AjB{JzAyIPqC?eNNyET}BhAiGfAeDdAeC|@eAt@e@v@ObAH`@Tr@t@vAtCjAtBj@h@x@Xh@@vAi@z@qA^iAx@wEn@gINwGCyGm@{Ve@}Ok@oKg@eMAsEJ{FViMKcHOsCU}A_@iDq@}DcBcJkAiJm@kKYsM_@_SYsJ_@qHy@qJaBwNw@aLKaJ@yDPaCPsDb@uD|AuIt@mF@MN}@HGLDj@zBDh@?ZR`@XMd@qBhA{DHkAEoAEe@KIIFYCeBPWIUYYiAk@yK]yHK}CBOGi@EGgBcQCk@c@sDSwE?uFp@_HViBZy@FCLUBc@e@kCu@gDgBsIw@cFkBmJkA_EgAwCc@gBe@eCiAqJg@_GAES[U_E]_HMqCQwD]wJw@oZQmMAgLRyJd@oIv@wIz@qGzCmSv@wHZyJMiVOmWBmBLUJ}@~@_FfA{FD{@A]ZGXCz@Fz@XpDjDn@p@l@XtAXlAOnAo@`Ao@bAw@hFuDlEeDb@o@r@oAb@sAPw@RoCNo@PwKFgDEg@j@_F`@sA^}A|@mDbAuDXyAZuCJuFI_Cg@_FQ}BBADIBK?]ISGCIwAB{JN}KB_EKmDoAcSeB{LoA{G]_A@cAq@_GqBiO}BaZK]I{BUFMGyAqBmAgAUMOWU{CYaDAmBDs@"
+      },
+      "summary": "",
+      "warnings": [
+        "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+      ],
+      "waypoint_order": []
+    },
+    {
+      "bounds": {
+        "northeast": {
+          "lat": 59.423019,
+          "lng": 18.2705738
+        },
+        "southwest": {
+          "lat": 59.30177690000001,
+          "lng": 17.8322983
+        }
+      },
+      "copyrights": "Map data ©2023 Google",
+      "legs": [
+        {
+          "arrival_time": {
+            "text": "7:55 PM",
+            "time_zone": "Europe/Stockholm",
+            "value": 1677610555
+          },
+          "departure_time": {
+            "text": "6:43 PM",
+            "time_zone": "Europe/Stockholm",
+            "value": 1677606180
+          },
+          "distance": {
+            "text": "33.4 km",
+            "value": 33423
+          },
+          "duration": {
+            "text": "1 hour 13 mins",
+            "value": 4375
+          },
+          "end_address": "Nacka Municipality, Sweden",
+          "end_location": {
+            "lat": 59.3093329,
+            "lng": 18.2705738
+          },
+          "start_address": "Jakobsberg, Sweden",
+          "start_location": {
+            "lat": 59.423019,
+            "lng": 17.833344
+          },
+          "steps": [
+            {
+              "distance": {
+                "text": "17.8 km",
+                "value": 17795
+              },
+              "duration": {
+                "text": "21 mins",
+                "value": 1260
+              },
+              "end_location": {
+                "lat": 59.331139,
+                "lng": 18.0595
+              },
+              "html_instructions": "Train towards Västerhaninge",
+              "polyline": {
+                "points": "{`uiJkazkB@pBz@ClAAxI\\|Fr@f@Fp@HN?f@@B?lAEXCRARCD?`AMBA`A]jAc@zA_Av@m@d@e@f@a@f@m@Za@RWXe@Xe@Tc@Te@Ra@N[Vm@Re@Rm@L_@Nc@J_@HYPo@Nm@Rw@R_ALs@TkAJq@TqAHo@PgAV_BRuALy@PmAPcAPkANaAN_AL}@RuAV}AT{ARqAPgAPgANaAN_APeALy@N{@RiAP_AZ_BF_@XyA@A^gBVqAPw@XsAPu@\\yATy@@IVaAXiA`A}Dt@qCh@sBn@cCr@kCv@}Cn@aCr@oCr@oCH[d@eBd@eBn@cCd@gBh@sBz@eDx@aDz@gDp@}BLe@t@gC\\iAJ]BIRk@f@gBn@wB?An@_Cj@uBLe@^wAl@yBf@oB\\kATw@DObAuCXs@Xw@Re@HQ\\{@p@yAj@mAt@uAXm@R]n@mAt@oAR[V_@j@{@h@y@bAwAdAsA~@oAfA{AfAwAv@iARW`AyA`@k@p@_AdAyA?AhA_BNSb@k@bAqAl@y@l@y@d@q@`@k@jAaBRW`@i@n@{@d@q@b@o@pAgB~@oAJQdAuA|@uA`AiArAqBDGhAyAdAqAt@w@x@w@nB}AhByAf@a@NKTUh@i@f@m@lAcB`A_BrAqCfAeC^}@Xq@~AuDb@w@\\}@z@mB`AuBzA{DxAyDtAsD?ChAeDn@gBX{@hAeDVs@Pg@z@eCtAqDJYjBiFfBeFNa@l@iBVcAhAgDrAqD|DuKzCoITm@p@oBZw@n@aBPk@l@aBt@wBj@yAp@iBl@cB`@kANe@DOf@}Al@sBf@qBh@qBViA^mB^wBTmALo@BOXiBRmATcBHa@Fa@Ls@jAsHJq@RoA^{Br@sEr@eEr@qEn@cELw@Fc@RqAf@_Db@uCV{APiADYN}@BUPcARqA^aCZmB\\{B^_C\\wBj@sDjAsHfA_Hh@oDBML}@Js@DQZqBLy@BIJu@ZoBPoAV}ADa@N_ATeBb@qCf@oDj@wDl@qDz@gFd@{Cp@cEd@_DH_ADWJkAD}@JyBDkAHyBF}AFmAHeAF{@LeALeAF]PiAVmA^qBVgAF]R{@n@yCbBcIR_AtAmGNu@^cBb@sB`@kBBMb@iB\\{A\\}AF[R{@^iBBOP}@BQd@}BJe@R{@H]F]Jm@PRhBmIBMBKBIBMpAkFDM@E?C@A@GDGvGaTJ]dL}^\\kADK@E@GBE@GBMR{@@I@G@A@GBMPgABI?G@C@G@E@KLiABK?G@G@IJgA@S?G@C?C@G@UFgA?K@G?C?I?KDiA?K@G?G?C?I?KJyS?U?G?G?YXwS?Y?K@SR_L?K?G?G?MLgU@Q?K?K?QAaT?}A?O?G?C?C?C?C?C?GAMEw@QkDAO?G?EAA?I?OEiBAK?M?GAKAyB?QAG?C?C@G?KBmC?G?G?C@C?G?KDo@@S@K?KD_A?G@G@G?C?C@G?G@GNiARiBBK?G@A?C@GBKXuAP_ABK@G?A@C@C?A@CBE@Eb@iA`AkCZy@BIBE@A?ABEBE@CHKBGBC@CBCFGT[FGDEFGnBsBnKwFHCBADCHEhDwADCBADCDCnBeAHEBA?ABA@ADEr@i@j@e@DCBC@ABCBCDGtA}AJKFI~BqCFIBC?ABCBEDEnDoFXm@Vo@Xu@Vw@Rq@Nq@Pu@P}@PgAPsAL{@JiAHcADcAFmABeA@{@@}A@gB@uCA}B?yB?uA?C?cCAuE?uD?_D?wDAkC@iDA{G?aD?iCDaCDwBHuBLqBN_BLoAVkB^sBz@yEdAsF^qBVmAl@_Dj@wCXaBZmB^{B`@cCZiBVoAVuA\\qAd@qBf@{Ab@uAj@}An@{Al@qAt@oAn@gAp@aAb@k@r@w@bAaAt@m@p@g@pAw@t@_@tAe@fAW`B_@z@QxA[x@OtAU~AYhB[`Ca@bBWdAU`BUrASr@K@?Cs@"
+              },
+              "start_location": {
+                "lat": 59.423019,
+                "lng": 17.833344
+              },
+              "transit_details": {
+                "arrival_stop": {
+                  "location": {
+                    "lat": 59.331139,
+                    "lng": 18.0595
+                  },
+                  "name": "Stockholm City"
+                },
+                "arrival_time": {
+                  "text": "7:04 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677607440
+                },
+                "departure_stop": {
+                  "location": {
+                    "lat": 59.423019,
+                    "lng": 17.833344
+                  },
+                  "name": "Jakobsberg"
+                },
+                "departure_time": {
+                  "text": "6:43 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677606180
+                },
+                "headsign": "Västerhaninge",
+                "line": {
+                  "agencies": [
+                    {
+                      "name": "Storstockholms Lokaltrafik",
+                      "phone": "011 46 8 600 10 00",
+                      "url": "http://www.sl.se/"
+                    }
+                  ],
+                  "color": "#f166a7",
+                  "short_name": "43",
+                  "text_color": "#ffffff",
+                  "vehicle": {
+                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/rail2.png",
+                    "name": "Train",
+                    "type": "HEAVY_RAIL"
+                  }
+                },
+                "num_stops": 5
+              },
+              "travel_mode": "TRANSIT"
+            },
+            {
+              "distance": {
+                "text": "77 m",
+                "value": 77
+              },
+              "duration": {
+                "text": "1 min",
+                "value": 78
+              },
+              "end_location": {
+                "lat": 59.33080200000001,
+                "lng": 18.0590902
+              },
+              "html_instructions": "Walk to T-Centralen",
+              "polyline": {
+                "points": "sbciJ{ffmBxAEUvA"
+              },
+              "start_location": {
+                "lat": 59.331139,
+                "lng": 18.0595
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "50 m",
+                    "value": 50
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 51
+                  },
+                  "end_location": {
+                    "lat": 59.33068799999999,
+                    "lng": 18.05953
+                  },
+                  "html_instructions": "Take exit <span class=\"location\">Vasagatan/Tunnelbana</span>",
+                  "polyline": {
+                    "points": "sbciJ{ffmBxAE"
+                  },
+                  "start_location": {
+                    "lat": 59.331139,
+                    "lng": 18.0595
+                  },
+                  "travel_mode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "27 m",
+                    "value": 27
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 27
+                  },
+                  "end_location": {
+                    "lat": 59.33080200000001,
+                    "lng": 18.0590902
+                  },
+                  "polyline": {
+                    "points": "y_ciJagfmBUvA"
+                  },
+                  "start_location": {
+                    "lat": 59.33068799999999,
+                    "lng": 18.05953
+                  },
+                  "travel_mode": "WALKING"
+                }
+              ],
+              "travel_mode": "WALKING"
+            },
+            {
+              "distance": {
+                "text": "1.5 km",
+                "value": 1544
+              },
+              "duration": {
+                "text": "3 mins",
+                "value": 180
+              },
+              "end_location": {
+                "lat": 59.3194074,
+                "lng": 18.0722943
+              },
+              "html_instructions": "Subway towards Fruängen",
+              "polyline": {
+                "points": "k`ciJmdfmBh@uENJlAr@BB\\NVLVFRALCVMbAi@`@U`@Uh@YXQVQh@g@BCVi@Xq@Vo@lAsCXo@Xo@DIRg@lAqCXq@Xo@Zw@rAuB\\i@^k@z@eAdAcAXS`@YROpAu@j@[VObAo@\\SBCj@k@z@mA@?Zi@T_@DIp@mARa@b@y@h@eAj@gABGDIN_@Na@HQHO\\}@BE\\k@LS\\e@\\e@^e@|AaB^a@JKBP"
+              },
+              "start_location": {
+                "lat": 59.33077770000001,
+                "lng": 18.0591112
+              },
+              "transit_details": {
+                "arrival_stop": {
+                  "location": {
+                    "lat": 59.3194074,
+                    "lng": 18.0722943
+                  },
+                  "name": "Slussen"
+                },
+                "arrival_time": {
+                  "text": "7:14 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677608040
+                },
+                "departure_stop": {
+                  "location": {
+                    "lat": 59.33077770000001,
+                    "lng": 18.0591112
+                  },
+                  "name": "T-Centralen"
+                },
+                "departure_time": {
+                  "text": "7:11 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677607860
+                },
+                "headsign": "Fruängen",
+                "line": {
+                  "agencies": [
+                    {
+                      "name": "Storstockholms Lokaltrafik",
+                      "phone": "011 46 8 600 10 00",
+                      "url": "http://www.sl.se/"
+                    }
+                  ],
+                  "color": "#db0812",
+                  "name": "Röda linjen",
+                  "short_name": "14",
+                  "vehicle": {
+                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/subway2.png",
+                    "local_icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/se-stockholm-metro.png",
+                    "name": "Subway",
+                    "type": "SUBWAY"
+                  }
+                },
+                "num_stops": 2
+              },
+              "travel_mode": "TRANSIT"
+            },
+            {
+              "distance": {
+                "text": "0.2 km",
+                "value": 162
+              },
+              "duration": {
+                "text": "3 mins",
+                "value": 162
+              },
+              "end_location": {
+                "lat": 59.3195115,
+                "lng": 18.0750906
+              },
+              "html_instructions": "Walk to Slussen",
+              "polyline": {
+                "points": "az`iJmvhmBB{P"
+              },
+              "start_location": {
+                "lat": 59.319533,
+                "lng": 18.0722301
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "0.2 km",
+                    "value": 162
+                  },
+                  "duration": {
+                    "text": "3 mins",
+                    "value": 162
+                  },
+                  "end_location": {
+                    "lat": 59.3195115,
+                    "lng": 18.0750906
+                  },
+                  "polyline": {
+                    "points": "az`iJmvhmBB{P"
+                  },
+                  "start_location": {
+                    "lat": 59.319533,
+                    "lng": 18.0722301
+                  },
+                  "travel_mode": "WALKING"
+                }
+              ],
+              "travel_mode": "WALKING"
+            },
+            {
+              "distance": {
+                "text": "13.5 km",
+                "value": 13516
+              },
+              "duration": {
+                "text": "30 mins",
+                "value": 1793
+              },
+              "end_location": {
+                "lat": 59.307846,
+                "lng": 18.266432
+              },
+              "html_instructions": "Bus towards Orminge C via Boo gård",
+              "polyline": {
+                "points": "ez`iJmhimBCA@U@UB[Fk@LgALk@@GBGHk@Ju@Bk@@W?W?OEw@ZuB|AeKD]VqBd@aEJ]BUHq@Dg@NsAJ}@N}@JoABc@@U?_@NaDH}BJeCNiD@[By@JeCXyGJiC?[Fq@HeAFq@Hs@f@mEb@qDX_AJ[BIDKJSDGNSPK~@Y`A_@RGVYNSFMDOPk@J[Ji@H]H]Ls@PgAN}@N_Ad@iCTkAXeBD]BSBUFy@@m@@O?[?]?mA?i@AaBAoA@qBBqA@k@Dq@?C@K?I@OB[BWDi@F_@TqARqAR{@Ji@Jc@DKPg@b@mAXs@JYLWP_@PWNUPOHGHGLKNKLENELEXCT?L?PBLDFBFBFBHHHDJJNRLNNTHRFJ@@DHFLLVVl@Vh@R`@LRPTDFJJLLJFJHJDLDRBF@F@J?LAFAJCJCNGJEHEFCHGNOJOVa@FOFODKHWFUBMFSF[F]BMLs@DYD_@Hq@FEBEBG@GHu@B[Dc@DYBa@Fi@Bg@Da@@_@Bk@Bk@Bq@?I@g@@_@By@?G@{@DaC@_@?QAI?GCMD_@B]?W?_@A]C_@EYCQGUACEKEKAWAGAGESG]Ea@CSAWAe@?Q@W@S@SBULcALq@Nw@Jo@Fg@BIL}@DQH_ANwAH}@V{BDWPeAFk@Dg@Fe@B]?W?UASAa@AK?M?A?G?I?I@I@IDQJa@@IFWHe@?AL_AHoAB]@M@Y@S?EBaA?UB{A@uAH]@U?g@?kAA_AA_DAU?KAKAKCiC?a@AEAkC?kA?gC?G?U?UCk@?MAM?}@CgC?_BA_DAS?M?c@@aA?oA@{@?c@DqE@iB?Y@wA@gA@cA?oA@kB@[@C?S?a@AO?M?A?EA[AS?G?g@?MAi@?M?_@?e@?OAs@?q@?Q?K?OAQ?w@?A?e@?O?W?U?i@?E?y@Ew@As@A_A?}@As@A_@AyA?AAuBAoBA_BAc@CeEAgAAeAAa@AcAEkAEiA?w@EgAC_@Ey@GaAGcAGwAEMEaAH_AG@GDEm@Es@AG?AC]?CCk@Cu@?ECw@C_A?IAa@A]?OAw@?o@?o@?aADq@HgFDcB?S@UB_ADyA?KDiBB{A@u@@}@?E?w@?y@AU?e@AY?O?MM{CAm@Eu@AAEy@IeAAGMaAAGGi@AAIe@I]AIOu@ACSs@CKISEUCOEg@@C@E?E?E?E?C?E?E?CAA?A?AA??A?AAA?AA??A?AA??AA?A??AYiBEWMs@s@qDCOKe@A?Qi@Ge@CUEWMcAMoAIsAA]Ac@A]Aa@?e@?e@?a@@a@@c@LwC?EFyBBe@DwADkA?a@@k@?e@Ae@A}@CqBC_AC_AEmAAk@EaAGkAEcAC_AGiAB[?AAcAA_@?{ACmBCgC?e@?_C?C@sG?kC?Y?{@@gC?Q@[@sB?G?iACi@?m@@W?M?{@@yB@]?eA?K@oCBqA?]?M@a@?S?Q?U?U?U?Y?k@Ao@AY?KEw@Ck@Ca@IgB@WASMuBCk@SuCIwACk@IoAGmAI}AGSE{@QmCEy@GcAKiB?AOgCA[IoACg@KkBEy@GeABUAQ?IA_@?E@U?UBI@G@O@G?GAI?GAGCGAECEEEEQCMEQ?AEWIc@GcAGeAAWQ}COgCI}AEw@AQMuBAOMyBAMGw@AKMkAWwAIa@GYU}@[gACMs@qBUk@AWWw@GOYy@i@eBi@{AACGQc@uAIU]aAOi@GUEKQi@CIYu@Us@Wo@So@GOQa@c@}@I{@AG?KAWAu@@I?GBy@?K@O@w@FoD@SBwA?o@@]?aAAm@Gk@?c@?i@?u@?YAwAAo@?o@AoAAi@?g@Ag@?i@As@?W?KAgAAaB?e@CgDAqBEqE?k@AgA?e@@a@@kALU?AFk@BG?GF[Ha@He@DQ@ELw@@CJg@^mBF[BGBSHa@@EF[BQ@SBQ?K?IA]ZGNAHA^@ZDXH`@NRNXTjBlBVV\\\\PRTLVJVJRD^FH?RANC`@IF?h@Sd@[p@c@NKTQ\\W?ANKDEjBqAbBmAROvAeArA{@JMTUHKNS@CFKVa@FKFKJUFMDK?CTu@?APu@NeABiAHQ@G@G@M@a@?@DeB@}@B_ABaBEED@CdBC~@F?D@B?T@L@`@IpBgChAyANUx@kARYRYHKb@o@T]LS@EDGBCXe@T[NQJKJGJCLEP?N@NDNHNJJHHFHFJBF?HAJCHELMJOJMLOHM@ADITYJOEa@S_AOq@MaAIe@AUCa@Aa@Ci@Co@?e@?WAi@Ac@AY@[CsBEeAG_AK}@MgAO}@]eBMg@mE~Aa@XOFQ?I?I?OA_@GG@C?Q@WgCOwAGa@Ek@Eo@@?@A@??A@A@A?A@A?A?A@A?A?A@A?A?A?A?A?A?A?A?A?A?A?A?A?A?A?AAA?A?AAA?A?AAA?AA??AA??AAAA??AA?A?AA?@A?Co@AS?SAw@?cA?k@DsEDaD?o@B}ADmBD_DA_@EyAEsAKoBe@gHUsDGw@MeAk@oEUqAUsA?Au@gEMi@Kg@ISGSGOCGEKBM@Q@WCYCYE_@c@kDk@eEa@{CKs@WsBSwBK}@M_BGy@WgDYeEOmBEu@Ea@EB"
+              },
+              "start_location": {
+                "lat": 59.319553,
+                "lng": 18.075111
+              },
+              "transit_details": {
+                "arrival_stop": {
+                  "location": {
+                    "lat": 59.307846,
+                    "lng": 18.266432
+                  },
+                  "name": "Sjöstugan"
+                },
+                "arrival_time": {
+                  "text": "7:51 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677610313
+                },
+                "departure_stop": {
+                  "location": {
+                    "lat": 59.319553,
+                    "lng": 18.075111
+                  },
+                  "name": "Slussen"
+                },
+                "departure_time": {
+                  "text": "7:22 PM",
+                  "time_zone": "Europe/Stockholm",
+                  "value": 1677608520
+                },
+                "headsign": "Orminge C via Boo gård",
+                "line": {
+                  "agencies": [
+                    {
+                      "name": "Storstockholms Lokaltrafik",
+                      "phone": "011 46 8 600 10 00",
+                      "url": "http://www.sl.se/"
+                    }
+                  ],
+                  "color": "#c03548",
+                  "short_name": "414",
+                  "text_color": "#ffffff",
+                  "vehicle": {
+                    "icon": "//maps.gstatic.com/mapfiles/transit/iw2/6/bus2.png",
+                    "name": "Bus",
+                    "type": "BUS"
+                  }
+                },
+                "num_stops": 24
+              },
+              "travel_mode": "TRANSIT"
+            },
+            {
+              "distance": {
+                "text": "0.3 km",
+                "value": 329
+              },
+              "duration": {
+                "text": "4 mins",
+                "value": 240
+              },
+              "end_location": {
+                "lat": 59.3093329,
+                "lng": 18.2705738
+              },
+              "html_instructions": "Walk to Nacka Municipality, Sweden",
+              "polyline": {
+                "points": "{p~hJitnnBOwBG@MDGCECKMGIU[o@}@KMSUKIa@YAASKKGCOCc@Gw@I{@?CGw@Ku@AUC]Ag@?G?}@Ds@"
+              },
+              "start_location": {
+                "lat": 59.30781719999999,
+                "lng": 18.2664466
+              },
+              "steps": [
+                {
+                  "distance": {
+                    "text": "35 m",
+                    "value": 35
+                  },
+                  "duration": {
+                    "text": "1 min",
+                    "value": 24
+                  },
+                  "end_location": {
+                    "lat": 59.3078963,
+                    "lng": 18.2670478
+                  },
+                  "html_instructions": "Head <b>east</b> on <b>Sockenvägen</b> toward <b>Ekallén</b>",
+                  "polyline": {
+                    "points": "{p~hJitnnBOwB"
+                  },
+                  "start_location": {
+                    "lat": 59.30781719999999,
+                    "lng": 18.2664466
+                  },
+                  "travel_mode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "0.1 km",
+                    "value": 148
+                  },
+                  "duration": {
+                    "text": "2 mins",
+                    "value": 111
+                  },
+                  "end_location": {
+                    "lat": 59.3090877,
+                    "lng": 18.2680856
+                  },
+                  "html_instructions": "Turn <b>left</b> onto <b>Ekallén</b>",
+                  "maneuver": "turn-left",
+                  "polyline": {
+                    "points": "kq~hJaxnnBG@MDGCECKMGIU[o@}@KMSUKIa@YAASKKG"
+                  },
+                  "start_location": {
+                    "lat": 59.3078963,
+                    "lng": 18.2670478
+                  },
+                  "travel_mode": "WALKING"
+                },
+                {
+                  "distance": {
+                    "text": "0.1 km",
+                    "value": 146
+                  },
+                  "duration": {
+                    "text": "2 mins",
+                    "value": 105
+                  },
+                  "end_location": {
+                    "lat": 59.3093329,
+                    "lng": 18.2705738
+                  },
+                  "html_instructions": "Turn <b>right</b> to stay on <b>Ekallén</b><div style=\"font-size:0.9em\">Destination will be on the right</div>",
+                  "maneuver": "turn-right",
+                  "polyline": {
+                    "points": "yx~hJq~nnBCOCc@Gw@I{@?CGw@Ku@AUC]Ag@?G?}@Ds@"
+                  },
+                  "start_location": {
+                    "lat": 59.3090877,
+                    "lng": 18.2680856
+                  },
+                  "travel_mode": "WALKING"
+                }
+              ],
+              "travel_mode": "WALKING"
+            }
+          ],
+          "traffic_speed_entry": [],
+          "via_waypoint": []
+        }
+      ],
+      "overview_polyline": {
+        "points": "{`uiJkazkB@pBz@CfLZfJdArCGnBSdA_@fDcBlDcDbBeCnAgCdCoHdAyE`A_GpCwQvCoRpCgPxCwNlR_u@hKs`@|EkP|FkTxBqGtAkDlDkHlCwEpDmFtGwIpJcNfJeMlIiLxGgJjEkFzHqGvByBnCcEzCwG|D}IvF}MxFwOzIwVpG{Q`BkFpGgQ~FePdDgJlDsJjBgGhC{KfAeGzDyVtGwa@lKiq@vJao@nIyi@`AcI`@}J`@mHt@sFrG_[jLyi@p@}CJm@PRlB{I|AoGHYvVkx@d@sBfAyIVmGd@gk@TcOLso@Aq@[}GMkHVqJv@yGt@uDpCoH\\k@hDuDbLaG|DcBnC{AxBgBzF}G|D_GbBkEfAwE|@aHZ{GFwKCa_@AiWJePt@wKxDmTfFcYlBsKnCuJzAyDbBaD`BiCvAcBxBoBbC_BjCeAhDw@dHsAnLoBnHkAAs@xAEUvAl@yE|A~@pAh@`@EzAw@fCwA`Ay@Zm@xCeH`CsFr@aBnBmD|@uA`CiC`DsBdDoBjB}BlEcIfC{FlAkBzDoEJKBPWJB{PKEBk@f@{DZqBDkBEw@ZuBbBcLlAgJj@kF`@gEd@eMnAwZbAyJb@qDX_ANe@f@{@fDmAt@kAr@oC~CsQTaCBwBCiHLaHPgCdA_Gn@aCvAsDdA}A|Ay@nA?d@Pn@n@n@dAnB~Dp@v@p@\\n@Fl@Kl@W|@iAz@wC^yBZ}Aj@kFXeHL{IDsAEuBc@}BU{AGcBHuAv@}EzAsMd@qDJqBEmBh@qC\\{DFuBBqBJsB?iEMkKEmMIyOL_TH}KEeCEqLUwZIwJO{FOyEW}EKoAH_AG@GDEm@G{@GoAKsDEsH`@mQJgMY_Ju@cHeAkEEwACWoBeKg@uBe@aEQcIh@gPMiMg@uMGyNDeb@JkUQaHWiGe@eIQ}CQqBe@gI}@mPEiEFcAa@sAWaCk@cKy@mNq@qE}@mDiA}CYoAuBkGsBoGyBmGu@_BKcAAcBTqL?}DGoDI{KIyNIwL@gANaBJu@ZkBnAmG`@{CAg@j@I~ANt@^dCbC|AvAbBd@nAOhCsAbAw@pLqI`B_CXs@v@sDPkBHsCBeF@fBB~@l@D`@IpBgCxAoBjBkChAgBx@mAr@i@^E^Ft@f@f@Hn@g@d@m@Zc@JOEa@c@qBWgBKcCKeJg@kGm@cDMg@mE~Aq@`@[?aAGU@g@_FQ}BDEDK@[GWMGEwAB{JN}KB_EKmDoAcSeB{LoA{G]_A@cAq@_GqBiOu@oIgAqOK]I{Bc@?yAqBmAgAUMOWU{CYaDBaD"
       },
       "summary": "",
       "warnings": [

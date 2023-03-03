@@ -46,7 +46,7 @@ public class PublicTransportService {
     private Route toRoute(ApiRoute apiRoute){
         Route route = new Route();
         Leg leg = apiRoute.getLegs().get(0);
-        List<Step> steps = leg.getSteps().stream()    //?
+        List<Step> steps = leg.getSteps().stream()
                 .map(step -> new Step(step.getDistance().get("text"), clearHtml(step.getHtml_instructions())))
                 .toList();
         route.setSteps(steps);
